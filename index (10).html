@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polish Grammar Exam – Lisbon & Sintra</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e0f13;
+    --surface: #16181f;
+    --surface2: #1e2028;
+    --border: #2a2d38;
+    --accent: #7c9eff;
+    --accent2: #ff7c7c;
+    --green: #5cf5a0;
+    --yellow: #ffd166;
+    --text: #e8eaf0;
+    --muted: #6b7080;
+    --hint: #a0a8c0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Subtle grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(124,158,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124,158,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 720px;
+    padding: 32px 20px 80px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 16px;
+  }
+
+  .header-left h1 {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  .header-left .sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 4px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .score-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 20px;
+    text-align: right;
+    min-width: 140px;
+    flex-shrink: 0;
+  }
+
+  .score-panel .score-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .score-panel .score-value {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1.1;
+    margin-top: 2px;
+  }
+
+  .score-panel .score-max {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  /* Progress bar */
+  .progress-wrap {
+    margin-bottom: 28px;
+  }
+
+  .progress-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .progress-meta .ex-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.03em;
+  }
+
+  .progress-meta .ex-counter {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .progress-bar {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: width 0.4s ease;
+  }
+
+  /* Blank dots row */
+  .blank-dots {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: all 0.3s ease;
+  }
+  .dot.done-correct { background: var(--green); }
+  .dot.done-wrong { background: var(--accent2); }
+  .dot.active { background: var(--accent); box-shadow: 0 0 6px var(--accent); }
+
+  /* Sentence card */
+  .sentence-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sentence-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), transparent);
+  }
+
+  .sentence-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: -0.2px;
+    color: var(--text);
+  }
+
+  .blank-slot {
+    display: inline-block;
+    min-width: 100px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+    font-weight: 700;
+    text-align: center;
+    padding: 0 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    vertical-align: baseline;
+    transition: all 0.3s;
+  }
+
+  .blank-slot.filled-correct {
+    color: var(--green);
+    border-color: var(--green);
+  }
+
+  .blank-slot.filled-wrong {
+    color: var(--accent2);
+    border-color: var(--accent2);
+  }
+
+  /* Hint box */
+  .hint-box {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 16px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hint-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--yellow);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+
+  .hint-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--hint);
+  }
+
+  /* Options */
+  .options-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .option-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 20px;
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .option-btn:hover:not(:disabled) {
+    border-color: var(--accent);
+    background: rgba(124,158,255,0.06);
+    transform: translateX(4px);
+  }
+
+  .option-btn:disabled { cursor: default; }
+
+  .option-btn.correct {
+    border-color: var(--green);
+    background: rgba(92,245,160,0.08);
+    color: var(--green);
+  }
+
+  .option-btn.wrong {
+    border-color: var(--accent2);
+    background: rgba(255,124,124,0.08);
+    color: var(--accent2);
+  }
+
+  .option-btn.reveal-correct {
+    border-color: var(--green);
+    background: rgba(92,245,160,0.05);
+    color: var(--green);
+    opacity: 0.7;
+  }
+
+  .option-letter {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    border: 1px solid currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  /* Attempts indicator */
+  .attempts-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .attempt-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--muted);
+    transition: all 0.2s;
+  }
+  .attempt-dot.used { background: var(--accent2); border-color: var(--accent2); }
+
+  .attempts-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  /* Hint button */
+  .hint-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 14px;
+    color: var(--yellow);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .hint-btn:hover { border-color: var(--yellow); background: rgba(255,209,102,0.06); }
+  .hint-btn:disabled { opacity: 0.3; cursor: default; }
+
+  /* Feedback */
+  .feedback {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: none;
+  }
+  .feedback.correct { background: rgba(92,245,160,0.1); color: var(--green); border: 1px solid rgba(92,245,160,0.2); }
+  .feedback.wrong { background: rgba(255,124,124,0.1); color: var(--accent2); border: 1px solid rgba(255,124,124,0.2); }
+
+  /* Result card */
+  .result-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 40px 32px;
+    text-align: center;
+    display: none;
+  }
+
+  .result-card.show { display: block; }
+
+  .result-pct {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--accent), var(--green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .result-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+  }
+
+  .result-detail {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--hint);
+    margin-bottom: 32px;
+    line-height: 1.8;
+  }
+
+  .result-detail span { color: var(--text); font-weight: 500; }
+
+  /* Buttons row */
+  .btn-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    flex: 1;
+    min-width: 140px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: #0e0f13;
+  }
+  .btn-primary:hover { background: #9bb3ff; transform: translateY(-1px); }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn-danger {
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    font-size: 12px;
+    flex: 0;
+    min-width: auto;
+    padding: 14px 16px;
+  }
+  .btn-danger:hover { border-color: var(--accent2); color: var(--accent2); }
+
+  /* Loading */
+  .loading {
+    text-align: center;
+    padding: 80px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .loading::after {
+    content: '...';
+    animation: dots 1.2s steps(3, end) infinite;
+  }
+
+  @keyframes dots {
+    0%, 100% { content: '.'; }
+    33% { content: '..'; }
+    66% { content: '...'; }
+  }
+
+  /* Fade in */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .fade-in { animation: fadeUp 0.35s ease forwards; }
+
+  /* Session stats bar */
+  .session-bar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+
+  .stat-chip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .stat-chip .val { color: var(--text); font-size: 13px; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="header-left">
+      <h1>Polish Grammar Exam</h1>
+      <div class="sub">Lisbon &amp; Sintra · Fill in the blanks</div>
+    </div>
+    <div class="score-panel">
+      <div class="score-label">Session Score</div>
+      <div class="score-value" id="sessionScore">0</div>
+      <div class="score-max" id="sessionMax">/ 0 pts</div>
+    </div>
+  </div>
+
+  <div class="session-bar" id="sessionBar">
+    <div class="stat-chip">Exercises done: <span class="val" id="statDone">0</span></div>
+    <div class="stat-chip">Best: <span class="val" id="statBest">—</span></div>
+    <div class="stat-chip" id="resetChip" style="cursor:pointer; color: var(--accent2);" onclick="confirmReset()">↺ Reset</div>
+  </div>
+
+  <div id="mainArea">
+    <div class="loading">Loading exercises</div>
+  </div>
+</div>
+
+<script>
+const STORAGE_KEY = 'polish_exam_session';
+
+let exercises = [];
+let currentEx = null;
+let currentBlankIdx = 0;
+let blankAttempts = 0;
+let hintUsed = false;
+let blankResults = []; // {points, correct}
+let shuffledOptions = [];
+
+let session = loadSession();
+
+function loadSession() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { totalScore: 0, totalMax: 0, done: 0, best: null };
+  } catch { return { totalScore: 0, totalMax: 0, done: 0, best: null }; }
+}
+
+function saveSession() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+}
+
+function updateSessionUI() {
+  document.getElementById('sessionScore').textContent = session.totalScore;
+  document.getElementById('sessionMax').textContent = `/ ${session.totalMax} pts`;
+  document.getElementById('statDone').textContent = session.done;
+  document.getElementById('statBest').textContent = session.best !== null ? session.best + '%' : '—';
+}
+
+async function init() {
+  updateSessionUI();
+  try {
+    const res = await fetch('paragraphs.json');
+    const data = await res.json();
+    exercises = data.exercises;
+    startRandomExercise();
+  } catch(e) {
+    document.getElementById('mainArea').innerHTML = `<div class="loading">Could not load paragraphs.json</div>`;
+  }
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startRandomExercise() {
+  currentEx = exercises[Math.floor(Math.random() * exercises.length)];
+  currentBlankIdx = 0;
+  blankResults = [];
+  renderExercise();
+}
+
+function renderExercise() {
+  blankAttempts = 0;
+  hintUsed = false;
+  shuffledOptions = shuffle(currentEx.blanks[currentBlankIdx].options);
+
+  const totalBlanks = currentEx.blanks.length;
+  const pct = Math.round((currentBlankIdx / totalBlanks) * 100);
+
+  const dotsHtml = currentEx.blanks.map((_, i) => {
+    let cls = 'dot';
+    if (i < currentBlankIdx) {
+      cls += blankResults[i] && blankResults[i].points > 0 ? ' done-correct' : ' done-wrong';
+    } else if (i === currentBlankIdx) {
+      cls += ' active';
+    }
+    return `<div class="${cls}"></div>`;
+  }).join('');
+
+  const sentenceHtml = buildSentenceHtml();
+  const blank = currentEx.blanks[currentBlankIdx];
+
+  const optLetters = ['A', 'B', 'C'];
+  const optionsHtml = shuffledOptions.map((opt, i) => `
+    <button class="option-btn" onclick="selectOption('${opt}')" id="opt_${i}">
+      <span class="option-letter">${optLetters[i]}</span>
+      ${opt}
+    </button>
+  `).join('');
+
+  document.getElementById('mainArea').innerHTML = `
+    <div class="fade-in">
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span class="ex-title">${currentEx.title}</span>
+          <span class="ex-counter">Blank ${currentBlankIdx + 1} / ${totalBlanks}</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+      </div>
+
+      <div class="blank-dots">${dotsHtml}</div>
+
+      <div class="sentence-card">
+        <div class="sentence-text" id="sentenceText">${sentenceHtml}</div>
+        <div class="hint-box" id="hintBox" style="display:none">
+          <span class="hint-label">💡 Hint</span>
+          <span class="hint-text">${blank.hint}</span>
+        </div>
+      </div>
+
+      <div class="attempts-row">
+        <div class="attempt-dot" id="atd0"></div>
+        <div class="attempt-dot" id="atd1"></div>
+        <span class="attempts-label">attempts</span>
+        <button class="hint-btn" id="hintBtn" onclick="useHint()">💡 Hint <span style="color:var(--muted)">−1pt</span></button>
+      </div>
+
+      <div class="feedback" id="feedback"></div>
+
+      <div class="options-wrap">${optionsHtml}</div>
+
+      <div class="btn-row">
+        <button class="btn btn-danger" onclick="startRandomExercise()">↺ New paragraph</button>
+      </div>
+    </div>
+  `;
+}
+
+function buildSentenceHtml() {
+  const template = currentEx.template;
+  const parts = template.split('___');
+  let html = '';
+  parts.forEach((part, i) => {
+    html += escapeHtml(part);
+    if (i < parts.length - 1) {
+      if (i < currentBlankIdx) {
+        const res = blankResults[i];
+        const cls = res && res.points > 0 ? 'filled-correct' : 'filled-wrong';
+        html += `<span class="blank-slot ${cls}">${escapeHtml(currentEx.blanks[i].correct)}</span>`;
+      } else if (i === currentBlankIdx) {
+        html += `<span class="blank-slot" id="currentBlank">_____</span>`;
+      } else {
+        html += `<span class="blank-slot" style="opacity:0.3">_____</span>`;
+      }
+    }
+  });
+  return html;
+}
+
+function escapeHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function useHint() {
+  if (hintUsed) return;
+  hintUsed = true;
+  document.getElementById('hintBox').style.display = 'flex';
+  document.getElementById('hintBtn').disabled = true;
+  document.getElementById('hintBtn').style.opacity = '0.4';
+}
+
+function selectOption(chosen) {
+  const blank = currentEx.blanks[currentBlankIdx];
+  const isCorrect = chosen === blank.correct;
+
+  // Mark attempt dot
+  if (blankAttempts < 2) {
+    document.getElementById(`atd${blankAttempts}`).classList.add('used');
+  }
+  blankAttempts++;
+
+  // Find which button was clicked
+  shuffledOptions.forEach((opt, i) => {
+    const btn = document.getElementById(`opt_${i}`);
+    if (opt === chosen) {
+      btn.classList.add(isCorrect ? 'correct' : 'wrong');
+    }
+  });
+
+  if (isCorrect) {
+    let points = blankAttempts === 1 ? 3 : 2;
+    if (hintUsed) points = Math.max(0, points - 1);
+
+    blankResults[currentBlankIdx] = { points, correct: true };
+
+    const fb = document.getElementById('feedback');
+    fb.className = 'feedback correct';
+    fb.style.display = 'block';
+    fb.textContent = blankAttempts === 1
+      ? (hintUsed ? `✓ Correct! +${points} pts (hint used)` : `✓ Correct! +${points} pts`)
+      : `✓ Correct on 2nd try. +${points} pts`;
+
+    // Disable all options
+    shuffledOptions.forEach((_, i) => {
+      document.getElementById(`opt_${i}`).disabled = true;
+    });
+
+    setTimeout(() => advanceBlank(), 1000);
+
+  } else {
+    if (blankAttempts >= 2) {
+      // Out of attempts
+      blankResults[currentBlankIdx] = { points: 0, correct: false };
+
+      // Reveal correct
+      shuffledOptions.forEach((opt, i) => {
+        const btn = document.getElementById(`opt_${i}`);
+        btn.disabled = true;
+        if (opt === blank.correct) btn.classList.add('reveal-correct');
+      });
+
+      const fb = document.getElementById('feedback');
+      fb.className = 'feedback wrong';
+      fb.style.display = 'block';
+      fb.textContent = `✗ The correct answer is: ${blank.correct}`;
+
+      setTimeout(() => advanceBlank(), 1400);
+    } else {
+      const fb = document.getElementById('feedback');
+      fb.className = 'feedback wrong';
+      fb.style.display = 'block';
+      fb.textContent = `✗ Try again — one attempt left`;
+    }
+  }
+}
+
+function advanceBlank() {
+  currentBlankIdx++;
+  if (currentBlankIdx >= currentEx.blanks.length) {
+    showResult();
+  } else {
+    renderExercise();
+  }
+}
+
+function showResult() {
+  const earned = blankResults.reduce((s, r) => s + r.points, 0);
+  const maxPossible = currentEx.blanks.length * 3;
+  const pct = Math.round((earned / maxPossible) * 100);
+
+  // Update session
+  session.totalScore += earned;
+  session.totalMax += maxPossible;
+  session.done += 1;
+  if (session.best === null || pct > session.best) session.best = pct;
+  saveSession();
+  updateSessionUI();
+
+  const correct = blankResults.filter(r => r.correct).length;
+  const total = currentEx.blanks.length;
+
+  document.getElementById('mainArea').innerHTML = `
+    <div class="result-card show fade-in">
+      <div class="result-pct">${pct}%</div>
+      <div class="result-label">${currentEx.title}</div>
+      <div class="result-detail">
+        Points earned: <span>${earned} / ${maxPossible}</span><br>
+        Correct answers: <span>${correct} / ${total}</span>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="startRandomExercise()">New Paragraph →</button>
+        <button class="btn btn-secondary" onclick="retryExercise()">↺ Retry this</button>
+      </div>
+    </div>
+  `;
+}
+
+function retryExercise() {
+  currentBlankIdx = 0;
+  blankResults = [];
+  renderExercise();
+}
+
+function confirmReset() {
+  if (confirm('Reset all session scores?')) {
+    session = { totalScore: 0, totalMax: 0, done: 0, best: null };
+    saveSession();
+    updateSessionUI();
+  }
+}
+
+init();
+</script>
+</body>
+</html>

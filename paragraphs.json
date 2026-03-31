@@ -1,0 +1,171 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "Przygotowania i lot",
+      "template": "Przed ___ sprawdziłem ___ dokumenty. Razem z ___ żoną ___ do ___. Lot ___ trzy i pół godziny. Po ___ ___ taksówką do hotelu.",
+      "blanks": [
+        { "hint": "przed + Narzędnik", "options": ["wyjazdem", "wyjazdu", "wyjazd"], "correct": "wyjazdem" },
+        { "hint": "Biernik l.mn. niemęskoosobowe", "options": ["wszystkie", "wszystkich", "wszystkimi"], "correct": "wszystkie" },
+        { "hint": "z + Narzędnik żeński", "options": ["moją", "moja", "mojej"], "correct": "moją" },
+        { "hint": "Podmiot: my", "options": ["polecieliśmy", "poleciałem", "poleciały"], "correct": "polecieliśmy" },
+        { "hint": "do + Dopełniacz", "options": ["Portugalia", "Portugalii", "Portugaliowi"], "correct": "Portugalii" },
+        { "hint": "Podmiot: lot – rodzaj męski", "options": ["trwał", "trwało", "trwały"], "correct": "trwał" },
+        { "hint": "po + Miejscownik", "options": ["przylocie", "przylot", "przylotu"], "correct": "przylocie" },
+        { "hint": "Podmiot: my", "options": ["pojechaliśmy", "pojechałem", "pojechały"], "correct": "pojechaliśmy" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Alfama i deszcz",
+      "template": "Pierwszy dzień ___ ___ dniem Ramadanu. ___ po ___ dzielnicy Alfama. Niestety przez cały dzień ___ deszcz. Wieczorem ___ ___ rybę na ___ w TimeOut Market. To ___ bardzo dobry początek naszego pobytu.",
+      "blanks": [
+        { "hint": "dzień – rodzaj męski", "options": ["był", "była", "było"], "correct": "był" },
+        { "hint": "Narzędnik męski – przymiotnik", "options": ["ostatnim", "ostatni", "ostatnią"], "correct": "ostatnim" },
+        { "hint": "Podmiot: my", "options": ["Spacerowaliśmy", "Spacerowałem", "Spacerowała"], "correct": "Spacerowaliśmy" },
+        { "hint": "po + Miejscownik żeński – przymiotnik", "options": ["starej", "stara", "starą"], "correct": "starej" },
+        { "hint": "deszcz – rodzaj męski", "options": ["padał", "padało", "padały"], "correct": "padał" },
+        { "hint": "Podmiot: my", "options": ["jedliśmy", "jadłem", "jadły"], "correct": "jedliśmy" },
+        { "hint": "Biernik żeński – przymiotnik", "options": ["pyszną", "pyszny", "pyszne"], "correct": "pyszną" },
+        { "hint": "na + Biernik", "options": ["kolację", "kolacji", "kolacją"], "correct": "kolację" },
+        { "hint": "To – rodzaj męski", "options": ["był", "była", "było"], "correct": "był" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "LisboaCard i Belém",
+      "template": "___ dnia ___ LisboaCard, ale ___ ___ w ___. Nie ___, czy ten zakup ___ ___. ___ po ___ dzielnicy Belém.",
+      "blanks": [
+        { "hint": "Dopełniacz – dnia (kiedy?)", "options": ["Drugiego", "Drugi", "Drugiemu"], "correct": "Drugiego" },
+        { "hint": "Podmiot: my", "options": ["kupiliśmy", "kupiłem", "kupili"], "correct": "kupiliśmy" },
+        { "hint": "Mianownik l.mn. niemęskoosobowe", "options": ["muzea", "muzeów", "muzeami"], "correct": "muzea" },
+        { "hint": "muzea – niemęskoosobowe l.mn.", "options": ["były", "było", "był"], "correct": "były" },
+        { "hint": "w + Miejscownik", "options": ["remoncie", "remont", "remontu"], "correct": "remoncie" },
+        { "hint": "ja", "options": ["wiem", "wiesz", "wie"], "correct": "wiem" },
+        { "hint": "zakup – rodzaj męski", "options": ["był", "była", "było"], "correct": "był" },
+        { "hint": "Mianownik męski – przymiotnik", "options": ["ekonomiczny", "ekonomiczna", "ekonomiczne"], "correct": "ekonomiczny" },
+        { "hint": "Podmiot: my", "options": ["Spacerowaliśmy", "Spacerowałem", "Spacerowała"], "correct": "Spacerowaliśmy" },
+        { "hint": "po + Miejscownik żeński – przymiotnik", "options": ["pięknej", "piękna", "piękną"], "correct": "pięknej" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Wieża Belém i MAAT",
+      "template": "Niestety ___ Wieża Belém ___ zamknięta. ___ ją tylko z ___. Potem ___ do ___ muzeum MAAT. Gülay ___ ___, a ja ___ na zewnątrz.",
+      "blanks": [
+        { "hint": "Podmiot → Mianownik żeński – przymiotnik", "options": ["słynna", "słynną", "słynnej"], "correct": "słynna" },
+        { "hint": "Wieża – rodzaj żeński", "options": ["była", "był", "było"], "correct": "była" },
+        { "hint": "Podmiot: my", "options": ["Oglądaliśmy", "Oglądałem", "Oglądała"], "correct": "Oglądaliśmy" },
+        { "hint": "z … – wyrażenie stałe", "options": ["zewnątrz", "zewnętrzna", "zewnętrzną"], "correct": "zewnątrz" },
+        { "hint": "Podmiot: my", "options": ["poszliśmy", "poszłam", "poszło"], "correct": "poszliśmy" },
+        { "hint": "do + Dopełniacz nijaki – przymiotnik", "options": ["nowoczesnego", "nowoczesne", "nowoczesną"], "correct": "nowoczesnego" },
+        { "hint": "Gülay – rodzaj żeński", "options": ["zwiedzała", "zwiedzałem", "zwiedzali"], "correct": "zwiedzała" },
+        { "hint": "Biernik nijaki", "options": ["wnętrze", "wnętrza", "wnętrzem"], "correct": "wnętrze" },
+        { "hint": "ja – rodzaj męski", "options": ["czekałem", "czekaliśmy", "czekała"], "correct": "czekałem" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Zamek i rzeka Tejo",
+      "template": "___ dnia ___ do ___ zamku Castelo de São Jorge. Z ___ ___ ___ panoramę miasta. Potem ___ przy ___ moście 25 de Abril. Wieczorem ___ nad ___ Tejo.",
+      "blanks": [
+        { "hint": "Dopełniacz – dnia (kiedy?)", "options": ["Trzeciego", "Trzeci", "Trzecim"], "correct": "Trzeciego" },
+        { "hint": "Podmiot: my", "options": ["pojechaliśmy", "pojechałem", "pojechały"], "correct": "pojechaliśmy" },
+        { "hint": "do + Dopełniacz męski – przymiotnik", "options": ["starego", "stary", "starym"], "correct": "starego" },
+        { "hint": "z + Dopełniacz", "options": ["zamku", "zamek", "zamkiem"], "correct": "zamku" },
+        { "hint": "Podmiot: my", "options": ["widzieliśmy", "widziałem", "widziały"], "correct": "widzieliśmy" },
+        { "hint": "Biernik żeński – przymiotnik", "options": ["piękną", "piękny", "piękne"], "correct": "piękną" },
+        { "hint": "Podmiot: my", "options": ["stanęliśmy", "stanąłem", "stanęła"], "correct": "stanęliśmy" },
+        { "hint": "przy + Miejscownik męski – przymiotnik", "options": ["słynnym", "słynny", "słynnego"], "correct": "słynnym" },
+        { "hint": "Podmiot: my", "options": ["spacerowaliśmy", "spacerowałem", "spacerowała"], "correct": "spacerowaliśmy" },
+        { "hint": "nad + Narzędnik żeński", "options": ["rzeką", "rzeka", "rzeki"], "correct": "rzeką" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Rue Augusta i kolacja",
+      "template": "___ na ___ ulicę Rue Augusta. Było tam ___ turystów. ___ ___ kolację w ___ restauracji. To ___ nasz ___ wieczór w ___. Wróciliśmy do hotelu bardzo ___.",
+      "blanks": [
+        { "hint": "Podmiot: my", "options": ["Poszliśmy", "Poszłam", "Poszło"], "correct": "Poszliśmy" },
+        { "hint": "na + Biernik żeński – przymiotnik", "options": ["słynną", "słynna", "słynnej"], "correct": "słynną" },
+        { "hint": "wielu / wiele + Dopełniacz l.mn.", "options": ["wielu", "wiele", "wieloma"], "correct": "wielu" },
+        { "hint": "Podmiot: my", "options": ["Zjedliśmy", "Zjadłem", "Zjadła"], "correct": "Zjedliśmy" },
+        { "hint": "Biernik żeński – przymiotnik", "options": ["pyszną", "pyszny", "pyszne"], "correct": "pyszną" },
+        { "hint": "w + Miejscownik żeński – przymiotnik", "options": ["małej", "mała", "małą"], "correct": "małej" },
+        { "hint": "To – rodzaj męski", "options": ["był", "była", "było"], "correct": "był" },
+        { "hint": "Mianownik męski – przymiotnik", "options": ["ulubiony", "ulubiona", "ulubione"], "correct": "ulubiony" },
+        { "hint": "w + Miejscownik", "options": ["Lizbonie", "Lizbona", "Lizbony"], "correct": "Lizbonie" },
+        { "hint": "Mianownik l.mn. męskoosobowy – przymiotnik", "options": ["zadowoleni", "zadowolony", "zadowolona"], "correct": "zadowoleni" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sintra i Pałac Pena",
+      "template": "___ dnia ___ pociągiem do ___. To ___ ___ miejsce całej podróży. ___ ___ Pałac Pena. ___ ___ architekturą. ___ po ___ korytarzach pałacu.",
+      "blanks": [
+        { "hint": "Dopełniacz – dnia (kiedy?)", "options": ["Czwartego", "Czwarty", "Czwartym"], "correct": "Czwartego" },
+        { "hint": "Podmiot: my", "options": ["pojechaliśmy", "pojechałem", "pojechała"], "correct": "pojechaliśmy" },
+        { "hint": "do + Dopełniacz", "options": ["Sintry", "Sintra", "Sintrze"], "correct": "Sintry" },
+        { "hint": "To – rodzaj nijaki", "options": ["było", "był", "była"], "correct": "było" },
+        { "hint": "Mianownik nijaki – przymiotnik", "options": ["najpiękniejsze", "najpiękniejszy", "najpiękniejszą"], "correct": "najpiękniejsze" },
+        { "hint": "Podmiot: my", "options": ["Zwiedziliśmy", "Zwiedzałem", "Zwiedzała"], "correct": "Zwiedziliśmy" },
+        { "hint": "Biernik męski nieżywotny – przymiotnik", "options": ["kolorowy", "kolorowe", "kolorowego"], "correct": "kolorowy" },
+        { "hint": "on – rodzaj męski", "options": ["interesował się", "interesowałem się", "interesowała się"], "correct": "interesował się" },
+        { "hint": "Narzędnik żeński – przymiotnik", "options": ["egzotyczną", "egzotyczna", "egzotycznej"], "correct": "egzotyczną" },
+        { "hint": "Podmiot: my", "options": ["Spacerowaliśmy", "Spacerowałem", "Spacerowała"], "correct": "Spacerowaliśmy" },
+        { "hint": "po + Miejscownik l.mn. – przymiotnik", "options": ["długich", "długi", "długim"], "correct": "długich" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Monserrate i Chiado",
+      "template": "Potem ___ do ___ parku Monserrate. ___ w ___ ogrodzie. Wieczorem ___ do ___ i ___ do ___ dzielnicy Chiado. ___ w kawiarni i ___ o naszej podróży.",
+      "blanks": [
+        { "hint": "Podmiot: my", "options": ["pojechaliśmy", "pojechałem", "pojechała"], "correct": "pojechaliśmy" },
+        { "hint": "do + Dopełniacz męski – przymiotnik", "options": ["pięknego", "piękny", "pięknym"], "correct": "pięknego" },
+        { "hint": "Podmiot: my", "options": ["Odpoczywaliśmy", "Odpoczywałem", "Odpoczywała"], "correct": "Odpoczywaliśmy" },
+        { "hint": "w + Miejscownik męski – przymiotnik", "options": ["egzotycznym", "egzotyczny", "egzotycznego"], "correct": "egzotycznym" },
+        { "hint": "Podmiot: my", "options": ["wróciliśmy", "wróciłem", "wróciła"], "correct": "wróciliśmy" },
+        { "hint": "do + Dopełniacz", "options": ["Lizbony", "Lizbona", "Lizbonie"], "correct": "Lizbony" },
+        { "hint": "Podmiot: my", "options": ["poszliśmy", "poszłam", "poszło"], "correct": "poszliśmy" },
+        { "hint": "do + Dopełniacz żeński – przymiotnik", "options": ["modnej", "modna", "modną"], "correct": "modnej" },
+        { "hint": "Podmiot: my", "options": ["Siedzieliśmy", "Siedziałem", "Siedziała"], "correct": "Siedzieliśmy" },
+        { "hint": "Podmiot: my", "options": ["rozmawialiśmy", "rozmawiałem", "rozmawiała"], "correct": "rozmawialiśmy" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Muzeum Gulbenkiana i powrót",
+      "template": "___ dnia rano ___ do ___ Muzeum Gulbenkiana. Muzeum ___ ___ kolekcję sztuki. Po ___ ___ na lotnisko. ___ do ___ bardzo ___, ale szczęśliwi.",
+      "blanks": [
+        { "hint": "Dopełniacz – dnia (kiedy?)", "options": ["Piątego", "Piąty", "Piątym"], "correct": "Piątego" },
+        { "hint": "Podmiot: my", "options": ["pojechaliśmy", "pojechałem", "pojechała"], "correct": "pojechaliśmy" },
+        { "hint": "do + Dopełniacz nijaki – przymiotnik", "options": ["słynnego", "słynne", "słynnym"], "correct": "słynnego" },
+        { "hint": "muzeum – rodzaj nijaki", "options": ["miało", "miał", "miała"], "correct": "miało" },
+        { "hint": "Biernik żeński – przymiotnik", "options": ["ogromną", "ogromny", "ogromne"], "correct": "ogromną" },
+        { "hint": "po + Miejscownik", "options": ["zwiedzaniu", "zwiedzanie", "zwiedzania"], "correct": "zwiedzaniu" },
+        { "hint": "Podmiot: my", "options": ["pojechaliśmy", "pojechałem", "pojechały"], "correct": "pojechaliśmy" },
+        { "hint": "Podmiot: my", "options": ["Wróciliśmy", "Wróciłem", "Wróciła"], "correct": "Wróciliśmy" },
+        { "hint": "do + Dopełniacz", "options": ["Warszawy", "Warszawa", "Warszawie"], "correct": "Warszawy" },
+        { "hint": "Mianownik l.mn. męskoosobowy – przymiotnik", "options": ["zmęczeni", "zmęczony", "zmęczona"], "correct": "zmęczeni" }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Podsumowanie i plany",
+      "template": "Nasza ___ ___ bardzo udana. ___ wiele ___ miejsc. Najbardziej podobała nam się ___ Sintra. Teraz ___ zapisać wszystkie wspomnienia w ___ dzienniku. W ___ miesiącu ___ lecieć do ___. Na pewno wrócimy do Lizbony jeszcze raz!",
+      "blanks": [
+        { "hint": "Mianownik żeński", "options": ["podróż", "podróży", "podróżą"], "correct": "podróż" },
+        { "hint": "podróż – rodzaj żeński", "options": ["była", "był", "było"], "correct": "była" },
+        { "hint": "Podmiot: my", "options": ["Zwiedziliśmy", "Zwiedzałem", "Zwiedzała"], "correct": "Zwiedziliśmy" },
+        { "hint": "Dopełniacz l.mn.", "options": ["pięknych", "piękne", "pięknymi"], "correct": "pięknych" },
+        { "hint": "Mianownik żeński – przymiotnik", "options": ["kolorowa", "kolorowy", "kolorowe"], "correct": "kolorowa" },
+        { "hint": "ja", "options": ["muszę", "musisz", "musi"], "correct": "muszę" },
+        { "hint": "w + Miejscownik", "options": ["moim", "mój", "moje"], "correct": "moim" },
+        { "hint": "w + Miejscownik męski – przymiotnik", "options": ["przyszłym", "przyszły", "przyszłego"], "correct": "przyszłym" },
+        { "hint": "Podmiot: my", "options": ["będziemy", "będę", "będzie"], "correct": "będziemy" },
+        { "hint": "do + Dopełniacz", "options": ["Dubaju", "Dubaj", "Dubajowi"], "correct": "Dubaju" }
+      ]
+    }
+  ]
+}
