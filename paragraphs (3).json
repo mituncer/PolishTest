@@ -1,0 +1,2069 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "Przygotowania i lot",
+      "template": "Przed ___ sprawdziłem wszystkie dokumenty. Razem z moją żoną Gülay ___ do Portugalii. Lot ___ trzy i pół godziny. Po przylocie ___ taksówką do hotelu.",
+      "blanks": [
+        {
+          "hint": "przed + Narzędnik",
+          "options": [
+            "wyjazdem",
+            "wyjazdu",
+            "wyjazd"
+          ],
+          "correct": "wyjazdem"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "polecieliśmy",
+            "poleciałem",
+            "poleciały"
+          ],
+          "correct": "polecieliśmy"
+        },
+        {
+          "hint": "Podmiot: lot – rodzaj męski",
+          "options": [
+            "trwał",
+            "trwało",
+            "trwały"
+          ],
+          "correct": "trwał"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "pojechaliśmy",
+            "pojechałem",
+            "pojechały"
+          ],
+          "correct": "pojechaliśmy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Alfama i deszcz",
+      "template": "Pierwszy dzień ___ ostatnim dniem Ramadanu. Spacerowaliśmy po ___ dzielnicy Alfama. Niestety przez cały dzień ___ deszcz. Wieczorem jedliśmy pyszną rybę na ___ w TimeOut Market. To ___ bardzo dobry początek naszego pobytu.",
+      "blanks": [
+        {
+          "hint": "dzień – rodzaj męski, Narzędnik",
+          "options": [
+            "był",
+            "była",
+            "było"
+          ],
+          "correct": "był"
+        },
+        {
+          "hint": "po + Miejscownik żeński – przymiotnik",
+          "options": [
+            "starej",
+            "stara",
+            "starą"
+          ],
+          "correct": "starej"
+        },
+        {
+          "hint": "deszcz – rodzaj męski",
+          "options": [
+            "padał",
+            "padało",
+            "padały"
+          ],
+          "correct": "padał"
+        },
+        {
+          "hint": "na + Biernik",
+          "options": [
+            "kolację",
+            "kolacji",
+            "kolacją"
+          ],
+          "correct": "kolację"
+        },
+        {
+          "hint": "To – rodzaj męski",
+          "options": [
+            "był",
+            "była",
+            "było"
+          ],
+          "correct": "był"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "LisboaCard i Belém",
+      "template": "___ dnia kupiliśmy LisboaCard, ale muzea były w remoncie. Nie wiem, czy ten zakup ___ ekonomiczny. Spacerowaliśmy po ___ dzielnicy Belém.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz – dnia (kiedy?)",
+          "options": [
+            "Drugiego",
+            "Drugi",
+            "Drugiemu"
+          ],
+          "correct": "Drugiego"
+        },
+        {
+          "hint": "zakup – rodzaj męski",
+          "options": [
+            "był",
+            "była",
+            "było"
+          ],
+          "correct": "był"
+        },
+        {
+          "hint": "po + Miejscownik żeński – przymiotnik",
+          "options": [
+            "pięknej",
+            "piękna",
+            "piękną"
+          ],
+          "correct": "pięknej"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Wieża Belém i MAAT",
+      "template": "Niestety słynna Wieża Belém ___ zamknięta. ___ ją tylko z zewnątrz. Potem poszliśmy do ___ muzeum MAAT. Gülay ___ wnętrze, a ja czekałem na zewnątrz.",
+      "blanks": [
+        {
+          "hint": "Wieża – rodzaj żeński",
+          "options": [
+            "była",
+            "był",
+            "było"
+          ],
+          "correct": "była"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "Oglądaliśmy",
+            "Oglądałem",
+            "Oglądała"
+          ],
+          "correct": "Oglądaliśmy"
+        },
+        {
+          "hint": "do + Dopełniacz nijaki – przymiotnik",
+          "options": [
+            "nowoczesnego",
+            "nowoczesne",
+            "nowoczesną"
+          ],
+          "correct": "nowoczesnego"
+        },
+        {
+          "hint": "Gülay – rodzaj żeński",
+          "options": [
+            "zwiedzała",
+            "zwiedzałem",
+            "zwiedzali"
+          ],
+          "correct": "zwiedzała"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Zamek i rzeka Tejo",
+      "template": "___ dnia pojechaliśmy do starego zamku Castelo de São Jorge. Z zamku widzieliśmy ___ panoramę miasta. Potem stanęliśmy przy ___ moście 25 de Abril. Wieczorem spacerowaliśmy nad ___ Tejo.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz – dnia (kiedy?)",
+          "options": [
+            "Trzeciego",
+            "Trzeci",
+            "Trzecim"
+          ],
+          "correct": "Trzeciego"
+        },
+        {
+          "hint": "Biernik żeński – przymiotnik",
+          "options": [
+            "piękną",
+            "piękny",
+            "piękne"
+          ],
+          "correct": "piękną"
+        },
+        {
+          "hint": "przy + Miejscownik męski – przymiotnik",
+          "options": [
+            "słynnym",
+            "słynny",
+            "słynnego"
+          ],
+          "correct": "słynnym"
+        },
+        {
+          "hint": "nad + Narzędnik żeński",
+          "options": [
+            "rzeką",
+            "rzeka",
+            "rzeki"
+          ],
+          "correct": "rzeką"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Rue Augusta i kolacja",
+      "template": "___ na słynną ulicę Rue Augusta. Było tam wielu turystów. Zjedliśmy ___ kolację w małej restauracji. To był nasz ___ wieczór w Lizbonie. Wróciliśmy do hotelu bardzo ___.",
+      "blanks": [
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "Poszliśmy",
+            "Poszłam",
+            "Poszło"
+          ],
+          "correct": "Poszliśmy"
+        },
+        {
+          "hint": "Biernik żeński – przymiotnik",
+          "options": [
+            "pyszną",
+            "pyszny",
+            "pyszne"
+          ],
+          "correct": "pyszną"
+        },
+        {
+          "hint": "Mianownik męski – przymiotnik",
+          "options": [
+            "ulubiony",
+            "ulubiona",
+            "ulubione"
+          ],
+          "correct": "ulubiony"
+        },
+        {
+          "hint": "Mianownik l.mn. męskoosobowy – przymiotnik",
+          "options": [
+            "zadowoleni",
+            "zadowolony",
+            "zadowolona"
+          ],
+          "correct": "zadowoleni"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sintra i Pałac Pena",
+      "template": "___ dnia pojechaliśmy pociągiem do Sintry. To było ___ miejsce całej podróży. Zwiedziliśmy ___ Pałac Pena. Mustafa ___ egzotyczną architekturą. Spacerowaliśmy po ___ korytarzach pałacu.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz – dnia (kiedy?)",
+          "options": [
+            "Czwartego",
+            "Czwarty",
+            "Czwartym"
+          ],
+          "correct": "Czwartego"
+        },
+        {
+          "hint": "Mianownik nijaki – przymiotnik (stopień najwyższy)",
+          "options": [
+            "najpiękniejsze",
+            "najpiękniejszy",
+            "najpiękniejszą"
+          ],
+          "correct": "najpiękniejsze"
+        },
+        {
+          "hint": "Biernik męski nieżywotny – przymiotnik",
+          "options": [
+            "kolorowy",
+            "kolorowe",
+            "kolorowego"
+          ],
+          "correct": "kolorowy"
+        },
+        {
+          "hint": "on – czas teraźniejszy",
+          "options": [
+            "interesował się",
+            "interesowałem się",
+            "interesowała się"
+          ],
+          "correct": "interesował się"
+        },
+        {
+          "hint": "po + Miejscownik l.mn. – przymiotnik",
+          "options": [
+            "długich",
+            "długi",
+            "długim"
+          ],
+          "correct": "długich"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Monserrate i Chiado",
+      "template": "Potem pojechaliśmy do ___ parku Monserrate. Odpoczywaliśmy w ___ ogrodzie. Wieczorem wróciliśmy do ___ i poszliśmy do modnej dzielnicy Chiado. Siedzieliśmy w kawiarni i ___ o naszej podróży.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz męski – przymiotnik",
+          "options": [
+            "pięknego",
+            "piękny",
+            "pięknym"
+          ],
+          "correct": "pięknego"
+        },
+        {
+          "hint": "w + Miejscownik męski – przymiotnik",
+          "options": [
+            "egzotycznym",
+            "egzotyczny",
+            "egzotycznego"
+          ],
+          "correct": "egzotycznym"
+        },
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "Lizbony",
+            "Lizbona",
+            "Lizbonie"
+          ],
+          "correct": "Lizbony"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "rozmawialiśmy",
+            "rozmawiałem",
+            "rozmawiała"
+          ],
+          "correct": "rozmawialiśmy"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Muzeum Gulbenkiana i powrót",
+      "template": "___ dnia rano pojechaliśmy do słynnego Muzeum Gulbenkiana. Muzeum ___ ogromną kolekcję sztuki. Po ___ pojechaliśmy na lotnisko. Wróciliśmy do ___ bardzo zmęczeni, ale szczęśliwi.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz – dnia (kiedy?)",
+          "options": [
+            "Piątego",
+            "Piąty",
+            "Piątym"
+          ],
+          "correct": "Piątego"
+        },
+        {
+          "hint": "muzeum – rodzaj nijaki",
+          "options": [
+            "miało",
+            "miał",
+            "miała"
+          ],
+          "correct": "miało"
+        },
+        {
+          "hint": "po + Miejscownik",
+          "options": [
+            "zwiedzaniu",
+            "zwiedzanie",
+            "zwiedzania"
+          ],
+          "correct": "zwiedzaniu"
+        },
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "Warszawy",
+            "Warszawa",
+            "Warszawie"
+          ],
+          "correct": "Warszawy"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Podsumowanie i plany",
+      "template": "Nasza ___ była bardzo udana. Zwiedziliśmy wiele ___ miejsc. Najbardziej podobała nam się ___ Sintra. Teraz muszę zapisać wszystkie wspomnienia w ___ dzienniku. W ___ miesiącu będziemy lecieć do Dubaju.",
+      "blanks": [
+        {
+          "hint": "Mianownik żeński – rzeczownik",
+          "options": [
+            "podróż",
+            "podróży",
+            "podróżą"
+          ],
+          "correct": "podróż"
+        },
+        {
+          "hint": "Dopełniacz l.mn. – przymiotnik",
+          "options": [
+            "pięknych",
+            "piękne",
+            "pięknymi"
+          ],
+          "correct": "pięknych"
+        },
+        {
+          "hint": "Mianownik żeński – przymiotnik",
+          "options": [
+            "kolorowa",
+            "kolorowy",
+            "kolorowe"
+          ],
+          "correct": "kolorowa"
+        },
+        {
+          "hint": "w + Miejscownik – zaimek",
+          "options": [
+            "moim",
+            "mój",
+            "moje"
+          ],
+          "correct": "moim"
+        },
+        {
+          "hint": "w + Miejscownik męski – przymiotnik",
+          "options": [
+            "przyszłym",
+            "przyszły",
+            "przyszłego"
+          ],
+          "correct": "przyszłym"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tydzień temu w Lizbonie",
+      "template": "Tydzień temu ___ do Lizbony i bardzo nam się podobała. Przed ___ sprawdziłem wszystkie dokumenty. Razem z ___ żoną Gülay polecieliśmy do Portugalii.",
+      "blanks": [
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "pojechaliśmy",
+            "pojechałem",
+            "pojechały"
+          ],
+          "correct": "pojechaliśmy"
+        },
+        {
+          "hint": "przed + Narzędnik",
+          "options": [
+            "wyjazdem",
+            "wyjazdu",
+            "wyjazd"
+          ],
+          "correct": "wyjazdem"
+        },
+        {
+          "hint": "z + Narzędnik żeński – zaimek",
+          "options": [
+            "moją",
+            "mojej",
+            "moja"
+          ],
+          "correct": "moją"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Lot i hotel",
+      "template": "Lot ___ trzy i pół godziny. Po przylocie pojechaliśmy ___ do hotelu. Pokój hotelowy był ___, ale bardzo mały.",
+      "blanks": [
+        {
+          "hint": "Podmiot: lot – rodzaj męski",
+          "options": [
+            "trwał",
+            "trwało",
+            "trwały"
+          ],
+          "correct": "trwał"
+        },
+        {
+          "hint": "Narzędnik – środek transportu",
+          "options": [
+            "transferem",
+            "transfer",
+            "transferu"
+          ],
+          "correct": "transferem"
+        },
+        {
+          "hint": "Mianownik męski – przymiotnik",
+          "options": [
+            "czysty",
+            "czyste",
+            "czystego"
+          ],
+          "correct": "czysty"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Alfama – tramwaj i TimeOut",
+      "template": "Pojechaliśmy do ___ dzielnicy Alfama. Niestety przez cały dzień ___ deszcz. Wsiedliśmy do ___ tramwaju numer 28. Wieczorem jedliśmy pyszną rybę w TimeOut ___.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz żeński – przymiotnik",
+          "options": [
+            "starej",
+            "stara",
+            "starą"
+          ],
+          "correct": "starej"
+        },
+        {
+          "hint": "deszcz – rodzaj męski",
+          "options": [
+            "padał",
+            "padało",
+            "padały"
+          ],
+          "correct": "padał"
+        },
+        {
+          "hint": "do + Dopełniacz męski – przymiotnik",
+          "options": [
+            "słynnego",
+            "słynny",
+            "słynnym"
+          ],
+          "correct": "słynnego"
+        },
+        {
+          "hint": "Miejscownik – nazwa własna",
+          "options": [
+            "Markecie",
+            "Market",
+            "Marketu"
+          ],
+          "correct": "Markecie"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "LisboaCard i kawiarnia w Belém",
+      "template": "Drugiego dnia ___ LisboaCard, ale muzea były w remoncie. Pojechaliśmy do ___ dzielnicy Belém. Niestety słynna Wieża Belém ___ zamknięta — oglądaliśmy ją tylko z zewnątrz. Gülay zwiedzała Museu de Arte Popular, a ja ___ w kawiarni i robiłem plany.",
+      "blanks": [
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "kupiliśmy",
+            "kupiłem",
+            "kupili"
+          ],
+          "correct": "kupiliśmy"
+        },
+        {
+          "hint": "do + Dopełniacz żeński – przymiotnik",
+          "options": [
+            "pięknej",
+            "piękna",
+            "piękną"
+          ],
+          "correct": "pięknej"
+        },
+        {
+          "hint": "Wieża – rodzaj żeński",
+          "options": [
+            "była",
+            "był",
+            "było"
+          ],
+          "correct": "była"
+        },
+        {
+          "hint": "ja – rodzaj męski",
+          "options": [
+            "siedziałem",
+            "siedzieliśmy",
+            "siedziała"
+          ],
+          "correct": "siedziałem"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Pastéis de Belém",
+      "template": "Potem zjedliśmy słynne ___ Pastéis de Belém. Były bardzo ___ i pyszne. Nie wiem, czy ___ LisboaCard był ekonomiczny.",
+      "blanks": [
+        {
+          "hint": "Biernik nijaki l.mn.",
+          "options": [
+            "ciastka",
+            "ciastek",
+            "ciastkami"
+          ],
+          "correct": "ciastka"
+        },
+        {
+          "hint": "Mianownik nijaki l.mn. – przymiotnik",
+          "options": [
+            "słodkie",
+            "słodkich",
+            "słodkimi"
+          ],
+          "correct": "słodkie"
+        },
+        {
+          "hint": "Mianownik – rzeczownik",
+          "options": [
+            "zakup",
+            "zakupu",
+            "zakupem"
+          ],
+          "correct": "zakup"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Zamek São Jorge i MAAT",
+      "template": "Trzeciego dnia pojechaliśmy do ___ zamku Castelo de São Jorge. LisboaCard bardzo się tu ___ — z zamku widzieliśmy piękną panoramę miasta. Potem poszliśmy do MAAT, ale muzeum ___ zamknięte. Zwiedziliśmy ___ Muzeum Elektrowni.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz męski – przymiotnik",
+          "options": [
+            "starego",
+            "stary",
+            "staremu"
+          ],
+          "correct": "starego"
+        },
+        {
+          "hint": "on – rodzaj męski",
+          "options": [
+            "przydał",
+            "przydała",
+            "przydało"
+          ],
+          "correct": "przydał"
+        },
+        {
+          "hint": "muzeum – rodzaj nijaki",
+          "options": [
+            "było",
+            "był",
+            "była"
+          ],
+          "correct": "było"
+        },
+        {
+          "hint": "Biernik nijaki – przymiotnik",
+          "options": [
+            "nowoczesne",
+            "nowoczesnego",
+            "nowoczesnym"
+          ],
+          "correct": "nowoczesne"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Rzeka Tejo i Rue Augusta",
+      "template": "Wieczorem spacerowaliśmy nad ___ Tejo. Potem poszliśmy na ___ ulicę Rue Augusta. Zjedliśmy pyszną kolację w ___ restauracji. Wróciliśmy do hotelu bardzo ___.",
+      "blanks": [
+        {
+          "hint": "nad + Narzędnik żeński",
+          "options": [
+            "rzeką",
+            "rzeki",
+            "rzeka"
+          ],
+          "correct": "rzeką"
+        },
+        {
+          "hint": "na + Biernik żeński – przymiotnik",
+          "options": [
+            "słynną",
+            "słynnej",
+            "słynna"
+          ],
+          "correct": "słynną"
+        },
+        {
+          "hint": "w + Miejscownik żeński – przymiotnik",
+          "options": [
+            "małej",
+            "mała",
+            "małą"
+          ],
+          "correct": "małej"
+        },
+        {
+          "hint": "Mianownik l.mn. męskoosobowy – przymiotnik",
+          "options": [
+            "zadowoleni",
+            "zadowolony",
+            "zadowolonych"
+          ],
+          "correct": "zadowoleni"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Sintra – pociąg i ogrody",
+      "template": "___ dnia pojechaliśmy pociągiem do Sintry. To było najpiękniejsze ___ całej podróży. Zwiedziliśmy ___ Pałac Pena. Bardzo podobała mi się ___ architektura. Spacerowaliśmy po ___ pałacowych.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz – dnia (kiedy?)",
+          "options": [
+            "Czwartego",
+            "Czwarty",
+            "Czwartym"
+          ],
+          "correct": "Czwartego"
+        },
+        {
+          "hint": "Mianownik nijaki – rzeczownik",
+          "options": [
+            "miejsce",
+            "miejsca",
+            "miejscem"
+          ],
+          "correct": "miejsce"
+        },
+        {
+          "hint": "Biernik męski nieżywotny – przymiotnik",
+          "options": [
+            "kolorowy",
+            "kolorowego",
+            "kolorowym"
+          ],
+          "correct": "kolorowy"
+        },
+        {
+          "hint": "Mianownik żeński – przymiotnik",
+          "options": [
+            "egzotyczna",
+            "egzotyczną",
+            "egzotycznej"
+          ],
+          "correct": "egzotyczna"
+        },
+        {
+          "hint": "po + Miejscownik l.mn.",
+          "options": [
+            "ogrodach",
+            "ogrody",
+            "ogrodami"
+          ],
+          "correct": "ogrodach"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Monserrate i park Chiado",
+      "template": "Potem pojechaliśmy do ___ parku Monserrate. Odpoczywaliśmy w ___ ogrodzie. Wieczorem wróciliśmy do Lizbony i poszliśmy do ___ dzielnicy Chiado. Siedzieliśmy w parku i rozmawialiśmy o ___ podróży.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz męski – przymiotnik",
+          "options": [
+            "pięknego",
+            "piękny",
+            "pięknym"
+          ],
+          "correct": "pięknego"
+        },
+        {
+          "hint": "w + Miejscownik męski – przymiotnik",
+          "options": [
+            "egzotycznym",
+            "egzotyczny",
+            "egzotycznego"
+          ],
+          "correct": "egzotycznym"
+        },
+        {
+          "hint": "do + Dopełniacz żeński – przymiotnik",
+          "options": [
+            "modnej",
+            "modna",
+            "modną"
+          ],
+          "correct": "modnej"
+        },
+        {
+          "hint": "o + Miejscownik żeński – zaimek",
+          "options": [
+            "naszej",
+            "nasza",
+            "naszą"
+          ],
+          "correct": "naszej"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Muzeum Gulbenkiana – ogród i powrót",
+      "template": "___ dnia rano pojechaliśmy do Muzeum Gulbenkiana. Główny budynek był zamknięty z powodu ___, więc zwiedziliśmy ogród i Muzeum Nowoczesne. Bardzo podobała mi się jego ___. Po zwiedzaniu pojechaliśmy na lotnisko i ___ do Warszawy.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz – dnia (kiedy?)",
+          "options": [
+            "Piątego",
+            "Piąty",
+            "Piątym"
+          ],
+          "correct": "Piątego"
+        },
+        {
+          "hint": "z powodu + Dopełniacz",
+          "options": [
+            "remontu",
+            "remontem",
+            "remont"
+          ],
+          "correct": "remontu"
+        },
+        {
+          "hint": "Mianownik żeński – rzeczownik",
+          "options": [
+            "architektura",
+            "architekturę",
+            "architektury"
+          ],
+          "correct": "architektura"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "wróciliśmy",
+            "wróciłem",
+            "wróciła"
+          ],
+          "correct": "wróciliśmy"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Podsumowanie – komunikacja i sardynki",
+      "template": "Zwiedziliśmy wiele ___ miejsc. Przez całą podróż ___ z komunikacji miejskiej. Przywieźliśmy dużo ___ sardynek. Część zawieziemy ___ do Toronto. W przyszłym miesiącu ___ lecieć do Dubaju.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz l.mn. – przymiotnik",
+          "options": [
+            "pięknych",
+            "piękne",
+            "pięknymi"
+          ],
+          "correct": "pięknych"
+        },
+        {
+          "hint": "Podmiot: my – czas przeszły",
+          "options": [
+            "korzystaliśmy",
+            "korzystałem",
+            "korzystała"
+          ],
+          "correct": "korzystaliśmy"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "konserw",
+            "konserwy",
+            "konserwami"
+          ],
+          "correct": "konserw"
+        },
+        {
+          "hint": "Celownik – imię własne",
+          "options": [
+            "Alarze",
+            "Alara",
+            "Alarą"
+          ],
+          "correct": "Alarze"
+        },
+        {
+          "hint": "Podmiot: my – czas przyszły",
+          "options": [
+            "polecimy",
+            "polecę",
+            "poleci"
+          ],
+          "correct": "polecimy"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Opinia o podróży",
+      "template": "Nasza podróż do ___ była najlepszą podróżą w ostatnich latach. Dużo ___, zobaczyliśmy wiele miejsc i dużo spacerowaliśmy. Lizbona była bardzo ___. Tylko muzea były w ___.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "Lizbony",
+            "Lizbona",
+            "Lizbonie"
+          ],
+          "correct": "Lizbony"
+        },
+        {
+          "hint": "Podmiot: my – czas przeszły",
+          "options": [
+            "podróżowaliśmy",
+            "podróżowałem",
+            "podróżowała"
+          ],
+          "correct": "podróżowaliśmy"
+        },
+        {
+          "hint": "Mianownik żeński – przymiotnik",
+          "options": [
+            "piękna",
+            "piękny",
+            "piękne"
+          ],
+          "correct": "piękna"
+        },
+        {
+          "hint": "w + Miejscownik",
+          "options": [
+            "remoncie",
+            "remont",
+            "remontu"
+          ],
+          "correct": "remoncie"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Przygotowania i pierwszy wieczór",
+      "template": "Przed ___ z biura sprawdziłem wszystkie dokumenty. Razem z moją żoną Gülay ___ do Portugalii. Lot ___ cztery i pół godziny. Po przylocie ___ do TimeOut Market. Jedliśmy tam pyszną rybę na ___. To ___ bardzo dobry początek.",
+      "blanks": [
+        {
+          "hint": "przed + Narzędnik",
+          "options": [
+            "wyjazdem",
+            "wyjazdu",
+            "wyjazd"
+          ],
+          "correct": "wyjazdem"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "polecieliśmy",
+            "poleciałem",
+            "poleciały"
+          ],
+          "correct": "polecieliśmy"
+        },
+        {
+          "hint": "Podmiot: lot – rodzaj męski",
+          "options": [
+            "trwał",
+            "trwało",
+            "trwały"
+          ],
+          "correct": "trwał"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "pojechaliśmy",
+            "pojechałem",
+            "pojechały"
+          ],
+          "correct": "pojechaliśmy"
+        },
+        {
+          "hint": "na + Biernik",
+          "options": [
+            "kolację",
+            "kolacji",
+            "kolacją"
+          ],
+          "correct": "kolację"
+        },
+        {
+          "hint": "To – rodzaj męski",
+          "options": [
+            "był",
+            "była",
+            "było"
+          ],
+          "correct": "był"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Belém i Praça do Comércio",
+      "template": "Trzeciego dnia ___ do dzielnicy Belém. Poszliśmy pod słynną Wieżę Belém, ale ___ zamknięta. ___ ją tylko z zewnątrz. Byliśmy też na ___ placu Praça do Comércio. Wieczorem ___ pyszne ciastka Pastel de Nata.",
+      "blanks": [
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "pojechaliśmy",
+            "pojechałem",
+            "pojechała"
+          ],
+          "correct": "pojechaliśmy"
+        },
+        {
+          "hint": "Wieża – rodzaj żeński",
+          "options": [
+            "była",
+            "był",
+            "było"
+          ],
+          "correct": "była"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "Oglądaliśmy",
+            "Oglądałem",
+            "Oglądała"
+          ],
+          "correct": "Oglądaliśmy"
+        },
+        {
+          "hint": "na + Miejscownik męski – przymiotnik",
+          "options": [
+            "wielkim",
+            "wielkiego",
+            "wielki"
+          ],
+          "correct": "wielkim"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "jedliśmy",
+            "jadłem",
+            "jadły"
+          ],
+          "correct": "jedliśmy"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Sintra – pałac i park Monserrate",
+      "template": "Czwartego dnia pojechaliśmy pociągiem do ___. To było ___ miejsce całej podróży. ___ kolorowy pałac Pena. Potem odpoczywaliśmy w ___ parku Monserrate. Mustafa ___ tą architekturą. Spacerowaliśmy po ___ korytarzach. To był nasz ___ moment.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "Sintry",
+            "Sintrze",
+            "Sintrą"
+          ],
+          "correct": "Sintry"
+        },
+        {
+          "hint": "Mianownik nijaki – przymiotnik (stopień najwyższy)",
+          "options": [
+            "najpiękniejsze",
+            "najpiękniejszy",
+            "najpiękniejszą"
+          ],
+          "correct": "najpiękniejsze"
+        },
+        {
+          "hint": "Podmiot: my",
+          "options": [
+            "Zwiedzaliśmy",
+            "Zwiedzałem",
+            "Zwiedzały"
+          ],
+          "correct": "Zwiedzaliśmy"
+        },
+        {
+          "hint": "w + Miejscownik męski – przymiotnik",
+          "options": [
+            "egzotycznym",
+            "egzotycznego",
+            "egzotyczny"
+          ],
+          "correct": "egzotycznym"
+        },
+        {
+          "hint": "on – czas teraźniejszy (zwrotny)",
+          "options": [
+            "interesuje się",
+            "interesujesz się",
+            "interesował się"
+          ],
+          "correct": "interesuje się"
+        },
+        {
+          "hint": "po + Miejscownik l.mn. – przymiotnik",
+          "options": [
+            "długich",
+            "długim",
+            "długimi"
+          ],
+          "correct": "długich"
+        },
+        {
+          "hint": "Mianownik męski – przymiotnik",
+          "options": [
+            "ulubiony",
+            "ulubionego",
+            "ulubionym"
+          ],
+          "correct": "ulubiony"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Podsumowanie i przyszłe plany",
+      "template": "Nasza ___ była bardzo udana. Teraz ___ zapisać program w moim zeszycie. W ___ miesiącu będziemy lecieć do Dubaju. W maju ___ do Kanady na ważny kongres. Muszę też znaleźć ___ szkołę dla mojej żony w Toronto.",
+      "blanks": [
+        {
+          "hint": "Mianownik żeński – rzeczownik",
+          "options": [
+            "podróż",
+            "podróży",
+            "podróżą"
+          ],
+          "correct": "podróż"
+        },
+        {
+          "hint": "ja",
+          "options": [
+            "muszę",
+            "musisz",
+            "musi"
+          ],
+          "correct": "muszę"
+        },
+        {
+          "hint": "w + Miejscownik męski – przymiotnik",
+          "options": [
+            "przyszłym",
+            "przyszłego",
+            "przyszły"
+          ],
+          "correct": "przyszłym"
+        },
+        {
+          "hint": "Podmiot: my – czas przyszły",
+          "options": [
+            "polecimy",
+            "polecę",
+            "polecisz"
+          ],
+          "correct": "polecimy"
+        },
+        {
+          "hint": "Biernik żeński – przymiotnik",
+          "options": [
+            "dobrą",
+            "dobry",
+            "dobrym"
+          ],
+          "correct": "dobrą"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Opinia o LisboaCard",
+      "template": "___ LisboaCard, ponieważ myśleliśmy, że to będzie ekonomiczne. Niestety wiele muzeów ___ w trakcie konserwacji i remontu. Z tego powodu nie ___ wejść do wielu miejsc. Nie wiem, czy ___ tej karty był opłacalny.",
+      "blanks": [
+        {
+          "hint": "Podmiot: my – czas przeszły",
+          "options": [
+            "Kupiliśmy",
+            "Kupiłem",
+            "Kupiły"
+          ],
+          "correct": "Kupiliśmy"
+        },
+        {
+          "hint": "muzea – niemęskoosobowe l.mn.",
+          "options": [
+            "było",
+            "była",
+            "były"
+          ],
+          "correct": "było"
+        },
+        {
+          "hint": "Podmiot: my – czas przeszły",
+          "options": [
+            "mogliśmy",
+            "mogłem",
+            "mogła"
+          ],
+          "correct": "mogliśmy"
+        },
+        {
+          "hint": "Mianownik – rzeczownik",
+          "options": [
+            "zakup",
+            "zakupu",
+            "zakupem"
+          ],
+          "correct": "zakup"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Miasto i praca",
+      "template": "Anna mieszka w ___ od pięciu lat. Pracuje z ___ w centrum miasta. Codziennie jedzie do pracy ___ — to jej ulubiony środek transportu. Bardzo lubi swoją ___ i swoich współpracowników. Nie ma teraz ___ na odpoczynek.",
+      "blanks": [
+        {
+          "hint": "w + Miejscownik",
+          "options": [
+            "Krakowie",
+            "Kraków",
+            "Krakowa"
+          ],
+          "correct": "Krakowie"
+        },
+        {
+          "hint": "z + Narzędnik",
+          "options": [
+            "architektem",
+            "architekt",
+            "architekta"
+          ],
+          "correct": "architektem"
+        },
+        {
+          "hint": "Narzędnik – środek transportu",
+          "options": [
+            "rowerem",
+            "rower",
+            "roweru"
+          ],
+          "correct": "rowerem"
+        },
+        {
+          "hint": "Biernik żeński",
+          "options": [
+            "pracę",
+            "praca",
+            "pracy"
+          ],
+          "correct": "pracę"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "czasu",
+            "czas",
+            "czasie"
+          ],
+          "correct": "czasu"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Rodzina",
+      "template": "Tomek interesuje się ___ i kulturą Europy. Jego siostra uczy się ___ już od dwóch lat. Rodzice mieszkają w ___ przy morzu. Tomek często dzwoni do ___ wieczorami. Cała rodzina spotyka się na ___ w grudniu.",
+      "blanks": [
+        {
+          "hint": "Narzędnik żeński",
+          "options": [
+            "historią",
+            "historia",
+            "historię"
+          ],
+          "correct": "historią"
+        },
+        {
+          "hint": "Dopełniacz – język",
+          "options": [
+            "niemieckiego",
+            "niemecki",
+            "niemieckiemu"
+          ],
+          "correct": "niemieckiego"
+        },
+        {
+          "hint": "w + Miejscownik",
+          "options": [
+            "Gdańsku",
+            "Gdańsk",
+            "Gdańska"
+          ],
+          "correct": "Gdańsku"
+        },
+        {
+          "hint": "do + Dopełniacz żeński",
+          "options": [
+            "mamy",
+            "mama",
+            "mamą"
+          ],
+          "correct": "mamy"
+        },
+        {
+          "hint": "na + Miejscownik l.mn.",
+          "options": [
+            "świętach",
+            "święta",
+            "świąt"
+          ],
+          "correct": "świętach"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Biuro",
+      "template": "Dyrektor rozmawia z ___. Sekretarka przekazuje ___ szefowi. W biurze nie ma ___ od wczoraj. Zajmujemy się ___ od poniedziałku. Spotkanie odbywa się w ___ na trzecim piętrze.",
+      "blanks": [
+        {
+          "hint": "z + Narzędnik",
+          "options": [
+            "nowym pracownikiem",
+            "nowy pracownik",
+            "nowego pracownika"
+          ],
+          "correct": "nowym pracownikiem"
+        },
+        {
+          "hint": "Biernik l.mn.",
+          "options": [
+            "ważne dokumenty",
+            "ważnych dokumentów",
+            "ważnym dokumentom"
+          ],
+          "correct": "ważne dokumenty"
+        },
+        {
+          "hint": "Dopełniacz żeński",
+          "options": [
+            "drukarki",
+            "drukarka",
+            "drukarkę"
+          ],
+          "correct": "drukarki"
+        },
+        {
+          "hint": "Narzędnik",
+          "options": [
+            "nowym projektem",
+            "nowy projekt",
+            "nowego projektu"
+          ],
+          "correct": "nowym projektem"
+        },
+        {
+          "hint": "w + Miejscownik żeński",
+          "options": [
+            "dużej sali",
+            "duża sala",
+            "dużą salę"
+          ],
+          "correct": "dużej sali"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Podróże – Marek we Włoszech",
+      "template": "Marek marzy o podróży po ___. Jedzie tam ___ z Warszawy. W hotelu pyta o ___. Nie zna ___, ale uczy się go. Wraca do ___ po tygodniu.",
+      "blanks": [
+        {
+          "hint": "po + Miejscownik l.mn.",
+          "options": [
+            "Włoszech",
+            "Włochy",
+            "Włoch"
+          ],
+          "correct": "Włoszech"
+        },
+        {
+          "hint": "Narzędnik – środek transportu",
+          "options": [
+            "szybkim pociągiem",
+            "szybki pociąg",
+            "szybkiego pociągu"
+          ],
+          "correct": "szybkim pociągiem"
+        },
+        {
+          "hint": "o + Biernik",
+          "options": [
+            "wolny pokój",
+            "wolnym pokoju",
+            "wolnego pokoju"
+          ],
+          "correct": "wolny pokój"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "włoskiego języka",
+            "włoski język",
+            "włoskiemu językowi"
+          ],
+          "correct": "włoskiego języka"
+        },
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "domu",
+            "dom",
+            "domem"
+          ],
+          "correct": "domu"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Sztuka i muzeum",
+      "template": "Karolina interesuje się ___ i fotografią. Chodzi na wystawy z ___ co tydzień. W muzeum nie wolno dotykać ___. Fotografuje ___ w centrum miasta. Marzy o wystawie w ___.",
+      "blanks": [
+        {
+          "hint": "Narzędnik nijaki",
+          "options": [
+            "malarstwem",
+            "malarstwo",
+            "malarstwa"
+          ],
+          "correct": "malarstwem"
+        },
+        {
+          "hint": "z + Narzędnik żeński",
+          "options": [
+            "przyjaciółką",
+            "przyjaciółka",
+            "przyjaciółki"
+          ],
+          "correct": "przyjaciółką"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "obrazów",
+            "obrazy",
+            "obrazami"
+          ],
+          "correct": "obrazów"
+        },
+        {
+          "hint": "Biernik l.mn.",
+          "options": [
+            "stare budynki",
+            "starych budynków",
+            "starymi budynkami"
+          ],
+          "correct": "stare budynki"
+        },
+        {
+          "hint": "w + Miejscownik",
+          "options": [
+            "Paryżu",
+            "Paryż",
+            "Paryża"
+          ],
+          "correct": "Paryżu"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Zdrowie – lekarz i pacjent",
+      "template": "Lekarz rozmawia z ___ spokojnie. Nie ma tu ___ w kolejce. Pielęgniarka podaje ___ choremu dziecku. Pacjent skarży się na ___ głowy. Wraca do zdrowia dzięki ___.",
+      "blanks": [
+        {
+          "hint": "z + Narzędnik",
+          "options": [
+            "pacjentem",
+            "pacjent",
+            "pacjenta"
+          ],
+          "correct": "pacjentem"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "wolnych miejsc",
+            "wolne miejsca",
+            "wolnymi miejscami"
+          ],
+          "correct": "wolnych miejsc"
+        },
+        {
+          "hint": "Biernik nijaki",
+          "options": [
+            "lekarstwo",
+            "lekarstwa",
+            "lekarstwu"
+          ],
+          "correct": "lekarstwo"
+        },
+        {
+          "hint": "Biernik męski",
+          "options": [
+            "silny ból",
+            "silnego bólu",
+            "silnym bólem"
+          ],
+          "correct": "silny ból"
+        },
+        {
+          "hint": "dzięki + Celownik",
+          "options": [
+            "dobremu lekarzowi",
+            "dobry lekarz",
+            "dobrego lekarza"
+          ],
+          "correct": "dobremu lekarzowi"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Szkoła i wykład",
+      "template": "Studenci uczą się do ___ całą noc. Profesor tłumaczy ___ cierpliwie. Na wykładzie nie ma ___ dzisiaj. Rozmawiają o ___ nauczania. Dyskutują ze ___ po zajęciach.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "trudnego egzaminu",
+            "trudny egzamin",
+            "trudnemu egzaminowi"
+          ],
+          "correct": "trudnego egzaminu"
+        },
+        {
+          "hint": "Biernik żeński",
+          "options": [
+            "skomplikowaną teorię",
+            "skomplikowanej teorii",
+            "skomplikowana teoria"
+          ],
+          "correct": "skomplikowaną teorię"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "kilku studentów",
+            "kilku studenci",
+            "kilku studentom"
+          ],
+          "correct": "kilku studentów"
+        },
+        {
+          "hint": "o + Miejscownik żeński",
+          "options": [
+            "nowej metodzie",
+            "nowa metoda",
+            "nową metodę"
+          ],
+          "correct": "nowej metodzie"
+        },
+        {
+          "hint": "ze + Narzędnik – zaimek zwrotny",
+          "options": [
+            "sobą",
+            "siebie",
+            "się"
+          ],
+          "correct": "sobą"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Restauracja",
+      "template": "Kelner przynosi ___ do stolika. Nie ma dzisiaj w menu ___. Goście zamawiają kawę z ___. Szef kuchni gotuje z ___. Restauracja słynie z ___ rybnych.",
+      "blanks": [
+        {
+          "hint": "Biernik żeński",
+          "options": [
+            "świeżą zupę",
+            "świeżej zupy",
+            "świeża zupa"
+          ],
+          "correct": "świeżą zupę"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "pierogów",
+            "pierogi",
+            "pierogami"
+          ],
+          "correct": "pierogów"
+        },
+        {
+          "hint": "z + Narzędnik nijaki",
+          "options": [
+            "mlekiem",
+            "mleko",
+            "mleka"
+          ],
+          "correct": "mlekiem"
+        },
+        {
+          "hint": "z + Narzędnik l.mn.",
+          "options": [
+            "świeżymi warzywami",
+            "świeże warzywa",
+            "świeżych warzyw"
+          ],
+          "correct": "świeżymi warzywami"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "doskonałych dań",
+            "doskonałe dania",
+            "doskonałymi daniami"
+          ],
+          "correct": "doskonałych dań"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Miasto i transport",
+      "template": "Centrum miasta leży nad ___. Autobus jedzie do ___. Na przystanku czeka wielu ___. Rozmawiamy o ___ w centrum. Inżynier pracuje przy budowie ___.",
+      "blanks": [
+        {
+          "hint": "nad + Narzędnik żeński",
+          "options": [
+            "rzeką",
+            "rzeka",
+            "rzekę"
+          ],
+          "correct": "rzeką"
+        },
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "starego miasta",
+            "stare miasto",
+            "starym mieście"
+          ],
+          "correct": "starego miasta"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "pasażerów",
+            "pasażerowie",
+            "pasażerom"
+          ],
+          "correct": "pasażerów"
+        },
+        {
+          "hint": "o + Miejscownik męski – przymiotnik",
+          "options": [
+            "nowym moście",
+            "nowy most",
+            "nowego mostu"
+          ],
+          "correct": "nowym moście"
+        },
+        {
+          "hint": "Dopełniacz męski – przymiotnik",
+          "options": [
+            "długiego tunelu",
+            "długi tunel",
+            "długim tunelem"
+          ],
+          "correct": "długiego tunelu"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Dom i codzienność",
+      "template": "Mieszkają w ___ na czwartym piętrze. Nie ma w domu ___ od rana. Sąsiedzi rozmawiają ze ___ przez okno. Dbają o ___ przed domem. Wieczorami czytają o ___ tego miejsca.",
+      "blanks": [
+        {
+          "hint": "w + Miejscownik nijaki – przymiotnik",
+          "options": [
+            "nowym mieszkaniu",
+            "nowe mieszkanie",
+            "nowego mieszkania"
+          ],
+          "correct": "nowym mieszkaniu"
+        },
+        {
+          "hint": "Dopełniacz żeński – przymiotnik",
+          "options": [
+            "gorącej wody",
+            "gorąca woda",
+            "gorącą wodę"
+          ],
+          "correct": "gorącej wody"
+        },
+        {
+          "hint": "ze + Narzędnik – zaimek zwrotny",
+          "options": [
+            "sobą",
+            "siebie",
+            "się"
+          ],
+          "correct": "sobą"
+        },
+        {
+          "hint": "Biernik męski – przymiotnik",
+          "options": [
+            "piękny ogród",
+            "pięknego ogrodu",
+            "pięknym ogrodzie"
+          ],
+          "correct": "piękny ogród"
+        },
+        {
+          "hint": "o + Miejscownik żeński – przymiotnik",
+          "options": [
+            "ciekawej historii",
+            "ciekawa historia",
+            "ciekawą historię"
+          ],
+          "correct": "ciekawej historii"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Poranek w domu",
+      "template": "Rano Anna ___ o szóstej i idzie do kuchni. Pije kawę z ___. Jej mąż wczoraj ___ śniadanie dla całej rodziny. Dzieci nie mają teraz ___ na spokojne jedzenie. Jutro wszyscy ___ wcześniej niż zwykle.",
+      "blanks": [
+        {
+          "hint": "ona – czas teraźniejszy",
+          "options": [
+            "wstaje",
+            "wstaję",
+            "wstajesz"
+          ],
+          "correct": "wstaje"
+        },
+        {
+          "hint": "z + Narzędnik nijaki",
+          "options": [
+            "mlekiem",
+            "mleko",
+            "mleka"
+          ],
+          "correct": "mlekiem"
+        },
+        {
+          "hint": "on – czas przeszły",
+          "options": [
+            "gotował",
+            "gotuje",
+            "będzie gotować"
+          ],
+          "correct": "gotował"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "czasu",
+            "czas",
+            "czasem"
+          ],
+          "correct": "czasu"
+        },
+        {
+          "hint": "Podmiot: my – czas przyszły",
+          "options": [
+            "wstaniemy",
+            "wstajemy",
+            "wstawaliśmy"
+          ],
+          "correct": "wstaniemy"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "W pracy",
+      "template": "Dyrektor rozmawia z ___ w swoim gabinecie. Sekretarka ___ ważnego dokumentu od rana. Wczoraj spotkanie ___ trzy godziny. Nie ma dziś ___ w budynku. Jutro szef ___ nową umowę z klientem.",
+      "blanks": [
+        {
+          "hint": "z + Narzędnik",
+          "options": [
+            "pracownikiem",
+            "pracownik",
+            "pracownika"
+          ],
+          "correct": "pracownikiem"
+        },
+        {
+          "hint": "ona – czas teraźniejszy",
+          "options": [
+            "szuka",
+            "szukam",
+            "szukasz"
+          ],
+          "correct": "szuka"
+        },
+        {
+          "hint": "ono – czas przeszły",
+          "options": [
+            "trwało",
+            "trwa",
+            "będzie trwać"
+          ],
+          "correct": "trwało"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "prądu",
+            "prąd",
+            "prądem"
+          ],
+          "correct": "prądu"
+        },
+        {
+          "hint": "on – czas przyszły",
+          "options": [
+            "podpisze",
+            "podpisuje",
+            "podpisywał"
+          ],
+          "correct": "podpisze"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Na dworcu",
+      "template": "Pociąg jedzie do ___. Pasażerowie ___ na peronie od godziny. Wczoraj pociąg ___ o pół godziny. Kobieta pyta o ___ powrotny. Jutro Marek ___ o świcie do Gdańska.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz",
+          "options": [
+            "Krakowa",
+            "Kraków",
+            "Krakowem"
+          ],
+          "correct": "Krakowa"
+        },
+        {
+          "hint": "oni – czas teraźniejszy",
+          "options": [
+            "czekają",
+            "czekam",
+            "czekasz"
+          ],
+          "correct": "czekają"
+        },
+        {
+          "hint": "on – czas przeszły (zwrotny)",
+          "options": [
+            "spóźniał się",
+            "spóźnia się",
+            "spóźni się"
+          ],
+          "correct": "spóźniał się"
+        },
+        {
+          "hint": "Biernik – rzeczownik",
+          "options": [
+            "bilet",
+            "biletu",
+            "biletem"
+          ],
+          "correct": "bilet"
+        },
+        {
+          "hint": "on – czas przyszły",
+          "options": [
+            "wyjedzie",
+            "wyjeżdża",
+            "wyjeżdżał"
+          ],
+          "correct": "wyjedzie"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "U lekarza",
+      "template": "Lekarz ___ pacjenta w gabinecie. Pielęgniarka szuka ___. Wczoraj chory ___ w łóżku przez cały dzień. Nie ma tu ___ w pobliżu. Jutro doktor ___ receptę na nowy lek.",
+      "blanks": [
+        {
+          "hint": "on – czas teraźniejszy",
+          "options": [
+            "bada",
+            "badam",
+            "badasz"
+          ],
+          "correct": "bada"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "termometru",
+            "termometr",
+            "termometrem"
+          ],
+          "correct": "termometru"
+        },
+        {
+          "hint": "on – czas przeszły",
+          "options": [
+            "leżał",
+            "leży",
+            "będzie leżeć"
+          ],
+          "correct": "leżał"
+        },
+        {
+          "hint": "Dopełniacz żeński",
+          "options": [
+            "apteki",
+            "apteka",
+            "apteką"
+          ],
+          "correct": "apteki"
+        },
+        {
+          "hint": "on – czas przyszły",
+          "options": [
+            "wypisze",
+            "wypisuje",
+            "wypisywał"
+          ],
+          "correct": "wypisze"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Rodzina jedzie na wakacje",
+      "template": "Rodzina jedzie nad ___ na wakacje. Dzieci ___ z wyjazdu od tygodnia. Wczoraj mama ___ walizki do późna w nocy. Ojciec nie może znaleźć ___. Jutro samolot ___ o dziesiątej rano.",
+      "blanks": [
+        {
+          "hint": "nad + Biernik nijaki",
+          "options": [
+            "morze",
+            "morza",
+            "morzem"
+          ],
+          "correct": "morze"
+        },
+        {
+          "hint": "oni – czas teraźniejszy (zwrotny)",
+          "options": [
+            "cieszą się",
+            "cieszę się",
+            "cieszysz się"
+          ],
+          "correct": "cieszą się"
+        },
+        {
+          "hint": "ona – czas przeszły",
+          "options": [
+            "pakowała",
+            "pakuje",
+            "będzie pakować"
+          ],
+          "correct": "pakowała"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "paszportu",
+            "paszport",
+            "paszportem"
+          ],
+          "correct": "paszportu"
+        },
+        {
+          "hint": "on – czas przyszły",
+          "options": [
+            "odleci",
+            "odlatuje",
+            "odlatywał"
+          ],
+          "correct": "odleci"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Nauka języka polskiego",
+      "template": "Gülay uczy się ___ polskiego już od roku. Ona i Mustafa ___ wymowę razem każdego wieczoru. Wczoraj nauczycielka ___ zasady Narzędnika przez pół godziny. Rozmawiają o ___ i jej historii. Jutro oboje ___ test z gramatyki.",
+      "blanks": [
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "języka",
+            "język",
+            "językiem"
+          ],
+          "correct": "języka"
+        },
+        {
+          "hint": "oni – czas teraźniejszy",
+          "options": [
+            "ćwiczą",
+            "ćwiczę",
+            "ćwiczysz"
+          ],
+          "correct": "ćwiczą"
+        },
+        {
+          "hint": "ona – czas przeszły",
+          "options": [
+            "tłumaczyła",
+            "tłumaczy",
+            "wytłumaczy"
+          ],
+          "correct": "tłumaczyła"
+        },
+        {
+          "hint": "o + Miejscownik żeński",
+          "options": [
+            "Polsce",
+            "Polska",
+            "Polski"
+          ],
+          "correct": "Polsce"
+        },
+        {
+          "hint": "oni – czas przyszły",
+          "options": [
+            "napiszą",
+            "piszą",
+            "pisali"
+          ],
+          "correct": "napiszą"
+        }
+      ]
+    }
+  ]
+}
