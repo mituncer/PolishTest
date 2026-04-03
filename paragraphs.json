@@ -2064,6 +2064,115 @@
           "correct": "napiszą"
         }
       ]
+    },
+
+{
+  "id": 45,
+  "title": "Wieczór z książką",
+  "template": "___ jedenasta wieczorem. ___ światło i poszedłem spać. W moim pokoju ___ ciemno i cicho. Próbowałem ___ , ale nie mogłem, więc ___ książkę pt. „Wywiad z historią” autorstwa Oriany Fallaci i zacząłem ___ czytać. Ona ___ wywiady z ważnymi politykami. Ta książka opowiada o ___ . Czytam tę książkę ___ turecku, ale chcę o niej ___ po polsku. Po chwili poczułem się ___ i w końcu zasnąłem.",
+  "blanks": [
+    {
+      "hint": "być – czas przeszły (rodzaj żeński)",
+      "options": [
+        "Była",
+        "Był",
+        "Było"
+      ],
+      "correct": "Była"
+    },
+    {
+      "hint": "zgasić – czas przeszły (ja)",
+      "options": [
+        "Zgasiłem",
+        "Zgasiłam",
+        "Zgaszę"
+      ],
+      "correct": "Zgasiłem"
+    },
+    {
+      "hint": "być – forma nieosobowa",
+      "options": [
+        "było",
+        "był",
+        "była"
+      ],
+      "correct": "było"
+    },
+    {
+      "hint": "bezokolicznik (aspekt dokonany)",
+      "options": [
+        "usnąć",
+        "usnąłem",
+        "usnę"
+      ],
+      "correct": "usnąć"
+    },
+    {
+      "hint": "otworzyć – czas przeszły (ja)",
+      "options": [
+        "otworzyłem",
+        "otworzyłam",
+        "otworzy"
+      ],
+      "correct": "otworzyłem"
+    },
+    {
+      "hint": "zaimek (biernik – ją)",
+      "options": [
+        "ją",
+        "go",
+        "je"
+      ],
+      "correct": "ją"
+    },
+    {
+      "hint": "przeprowadzać – czas teraźniejszy (ona)",
+      "options": [
+        "przeprowadza",
+        "przeprowadzam",
+        "przeprowadzają"
+      ],
+      "correct": "przeprowadza"
+    },
+    {
+      "hint": "o + Miejscownik (rodzaj żeński)",
+      "options": [
+        "władzy",
+        "władza",
+        "władzę"
+      ],
+      "correct": "władzy"
+    },
+    {
+      "hint": "konstrukcja: po + język",
+      "options": [
+        "po",
+        "w",
+        "na"
+      ],
+      "correct": "po"
+    },
+    {
+      "hint": "bezokolicznik (aspekt dokonany)",
+      "options": [
+        "opowiedzieć",
+        "opowiadać",
+        "opowiem"
+      ],
+      "correct": "opowiedzieć"
+    },
+    {
+      "hint": "przymiotnik (rodzaj męski)",
+      "options": [
+        "zmęczony",
+        "zmęczona",
+        "zmęczeni"
+      ],
+      "correct": "zmęczony"
     }
+  ]
+}
+
+    
   ]
 }
