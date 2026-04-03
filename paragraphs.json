@@ -96,9 +96,8 @@
       ]
     },
     {
-      "id": 3,
-      "title": "LisboaCard i Belém",
-      "template": "___ dnia kupiliśmy LisboaCard, ale muzea były w remoncie. Nie wiem, czy ten zakup ___ ekonomiczny. Spacerowaliśmy po ___ dzielnicy Belém.",
+      "title": "LisboaCard, Belém i Pastéis",
+      "template": "___ dnia kupiliśmy LisboaCard, ale muzea były w remoncie. Nie wiem, czy ten zakup ___ ekonomiczny. Spacerowaliśmy po ___ dzielnicy Belém. Potem zjedliśmy słynne ___ Pastéis de Belém. Były bardzo ___ i pyszne. Nie wiem, czy ___ LisboaCard był ekonomiczny.",
       "blanks": [
         {
           "hint": "Dopełniacz – dnia (kiedy?)",
@@ -126,8 +125,36 @@
             "piękną"
           ],
           "correct": "pięknej"
+        },
+        {
+          "hint": "Biernik nijaki l.mn.",
+          "options": [
+            "ciastka",
+            "ciastek",
+            "ciastkami"
+          ],
+          "correct": "ciastka"
+        },
+        {
+          "hint": "Mianownik nijaki l.mn. – przymiotnik",
+          "options": [
+            "słodkie",
+            "słodkich",
+            "słodkimi"
+          ],
+          "correct": "słodkie"
+        },
+        {
+          "hint": "Mianownik – rzeczownik",
+          "options": [
+            "zakup",
+            "zakupu",
+            "zakupem"
+          ],
+          "correct": "zakup"
         }
-      ]
+      ],
+      "id": 3
     },
     {
       "id": 4,
@@ -449,9 +476,8 @@
       ]
     },
     {
-      "id": 11,
-      "title": "Tydzień temu w Lizbonie",
-      "template": "Tydzień temu ___ do Lizbony i bardzo nam się podobała. Przed ___ sprawdziłem wszystkie dokumenty. Razem z ___ żoną Gülay polecieliśmy do Portugalii.",
+      "title": "Tydzień temu w Lizbonie – lot i hotel",
+      "template": "Tydzień temu ___ do Lizbony i bardzo nam się podobała. Przed ___ sprawdziłem wszystkie dokumenty. Razem z ___ żoną Gülay polecieliśmy do Portugalii. Lot ___ trzy i pół godziny. Po przylocie pojechaliśmy ___ do hotelu. Pokój hotelowy był ___, ale bardzo mały.",
       "blanks": [
         {
           "hint": "Podmiot: my",
@@ -479,14 +505,7 @@
             "moja"
           ],
           "correct": "moją"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Lot i hotel",
-      "template": "Lot ___ trzy i pół godziny. Po przylocie pojechaliśmy ___ do hotelu. Pokój hotelowy był ___, ale bardzo mały.",
-      "blanks": [
+        },
         {
           "hint": "Podmiot: lot – rodzaj męski",
           "options": [
@@ -514,10 +533,11 @@
           ],
           "correct": "czysty"
         }
-      ]
+      ],
+      "id": 11
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Alfama – tramwaj i TimeOut",
       "template": "Pojechaliśmy do ___ dzielnicy Alfama. Niestety przez cały dzień ___ deszcz. Wsiedliśmy do ___ tramwaju numer 28. Wieczorem jedliśmy pyszną rybę w TimeOut ___.",
       "blanks": [
@@ -560,7 +580,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "LisboaCard i kawiarnia w Belém",
       "template": "Drugiego dnia ___ LisboaCard, ale muzea były w remoncie. Pojechaliśmy do ___ dzielnicy Belém. Niestety słynna Wieża Belém ___ zamknięta — oglądaliśmy ją tylko z zewnątrz. Gülay zwiedzała Museu de Arte Popular, a ja ___ w kawiarni i robiłem plany.",
       "blanks": [
@@ -603,41 +623,7 @@
       ]
     },
     {
-      "id": 15,
-      "title": "Pastéis de Belém",
-      "template": "Potem zjedliśmy słynne ___ Pastéis de Belém. Były bardzo ___ i pyszne. Nie wiem, czy ___ LisboaCard był ekonomiczny.",
-      "blanks": [
-        {
-          "hint": "Biernik nijaki l.mn.",
-          "options": [
-            "ciastka",
-            "ciastek",
-            "ciastkami"
-          ],
-          "correct": "ciastka"
-        },
-        {
-          "hint": "Mianownik nijaki l.mn. – przymiotnik",
-          "options": [
-            "słodkie",
-            "słodkich",
-            "słodkimi"
-          ],
-          "correct": "słodkie"
-        },
-        {
-          "hint": "Mianownik – rzeczownik",
-          "options": [
-            "zakup",
-            "zakupu",
-            "zakupem"
-          ],
-          "correct": "zakup"
-        }
-      ]
-    },
-    {
-      "id": 16,
+      "id": 14,
       "title": "Zamek São Jorge i MAAT",
       "template": "Trzeciego dnia pojechaliśmy do ___ zamku Castelo de São Jorge. LisboaCard bardzo się tu ___ — z zamku widzieliśmy piękną panoramę miasta. Potem poszliśmy do MAAT, ale muzeum ___ zamknięte. Zwiedziliśmy ___ Muzeum Elektrowni.",
       "blanks": [
@@ -680,7 +666,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 15,
       "title": "Rzeka Tejo i Rue Augusta",
       "template": "Wieczorem spacerowaliśmy nad ___ Tejo. Potem poszliśmy na ___ ulicę Rue Augusta. Zjedliśmy pyszną kolację w ___ restauracji. Wróciliśmy do hotelu bardzo ___.",
       "blanks": [
@@ -723,7 +709,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 16,
       "title": "Sintra – pociąg i ogrody",
       "template": "___ dnia pojechaliśmy pociągiem do Sintry. To było najpiękniejsze ___ całej podróży. Zwiedziliśmy ___ Pałac Pena. Bardzo podobała mi się ___ architektura. Spacerowaliśmy po ___ pałacowych.",
       "blanks": [
@@ -775,7 +761,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 17,
       "title": "Monserrate i park Chiado",
       "template": "Potem pojechaliśmy do ___ parku Monserrate. Odpoczywaliśmy w ___ ogrodzie. Wieczorem wróciliśmy do Lizbony i poszliśmy do ___ dzielnicy Chiado. Siedzieliśmy w parku i rozmawialiśmy o ___ podróży.",
       "blanks": [
@@ -818,7 +804,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 18,
       "title": "Muzeum Gulbenkiana – ogród i powrót",
       "template": "___ dnia rano pojechaliśmy do Muzeum Gulbenkiana. Główny budynek był zamknięty z powodu ___, więc zwiedziliśmy ogród i Muzeum Nowoczesne. Bardzo podobała mi się jego ___. Po zwiedzaniu pojechaliśmy na lotnisko i ___ do Warszawy.",
       "blanks": [
@@ -861,7 +847,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 19,
       "title": "Podsumowanie – komunikacja i sardynki",
       "template": "Zwiedziliśmy wiele ___ miejsc. Przez całą podróż ___ z komunikacji miejskiej. Przywieźliśmy dużo ___ sardynek. Część zawieziemy ___ do Toronto. W przyszłym miesiącu ___ lecieć do Dubaju.",
       "blanks": [
@@ -913,7 +899,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 20,
       "title": "Opinia o podróży",
       "template": "Nasza podróż do ___ była najlepszą podróżą w ostatnich latach. Dużo ___, zobaczyliśmy wiele miejsc i dużo spacerowaliśmy. Lizbona była bardzo ___. Tylko muzea były w ___.",
       "blanks": [
@@ -956,7 +942,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 21,
       "title": "Przygotowania i pierwszy wieczór",
       "template": "Przed ___ z biura sprawdziłem wszystkie dokumenty. Razem z moją żoną Gülay ___ do Portugalii. Lot ___ cztery i pół godziny. Po przylocie ___ do TimeOut Market. Jedliśmy tam pyszną rybę na ___. To ___ bardzo dobry początek.",
       "blanks": [
@@ -1017,7 +1003,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 22,
       "title": "Belém i Praça do Comércio",
       "template": "Trzeciego dnia ___ do dzielnicy Belém. Poszliśmy pod słynną Wieżę Belém, ale ___ zamknięta. ___ ją tylko z zewnątrz. Byliśmy też na ___ placu Praça do Comércio. Wieczorem ___ pyszne ciastka Pastel de Nata.",
       "blanks": [
@@ -1069,7 +1055,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 23,
       "title": "Sintra – pałac i park Monserrate",
       "template": "Czwartego dnia pojechaliśmy pociągiem do ___. To było ___ miejsce całej podróży. ___ kolorowy pałac Pena. Potem odpoczywaliśmy w ___ parku Monserrate. Mustafa ___ tą architekturą. Spacerowaliśmy po ___ korytarzach. To był nasz ___ moment.",
       "blanks": [
@@ -1139,7 +1125,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 24,
       "title": "Podsumowanie i przyszłe plany",
       "template": "Nasza ___ była bardzo udana. Teraz ___ zapisać program w moim zeszycie. W ___ miesiącu będziemy lecieć do Dubaju. W maju ___ do Kanady na ważny kongres. Muszę też znaleźć ___ szkołę dla mojej żony w Toronto.",
       "blanks": [
@@ -1191,7 +1177,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 25,
       "title": "Opinia o LisboaCard",
       "template": "___ LisboaCard, ponieważ myśleliśmy, że to będzie ekonomiczne. Niestety wiele muzeów ___ w trakcie konserwacji i remontu. Z tego powodu nie ___ wejść do wielu miejsc. Nie wiem, czy ___ tej karty był opłacalny.",
       "blanks": [
@@ -1234,7 +1220,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 26,
       "title": "Miasto i praca",
       "template": "Anna mieszka w ___ od pięciu lat. Pracuje z ___ w centrum miasta. Codziennie jedzie do pracy ___ — to jej ulubiony środek transportu. Bardzo lubi swoją ___ i swoich współpracowników. Nie ma teraz ___ na odpoczynek.",
       "blanks": [
@@ -1286,7 +1272,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 27,
       "title": "Rodzina",
       "template": "Tomek interesuje się ___ i kulturą Europy. Jego siostra uczy się ___ już od dwóch lat. Rodzice mieszkają w ___ przy morzu. Tomek często dzwoni do ___ wieczorami. Cała rodzina spotyka się na ___ w grudniu.",
       "blanks": [
@@ -1338,7 +1324,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 28,
       "title": "Biuro",
       "template": "Dyrektor rozmawia z ___. Sekretarka przekazuje ___ szefowi. W biurze nie ma ___ od wczoraj. Zajmujemy się ___ od poniedziałku. Spotkanie odbywa się w ___ na trzecim piętrze.",
       "blanks": [
@@ -1390,7 +1376,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 29,
       "title": "Podróże – Marek we Włoszech",
       "template": "Marek marzy o podróży po ___. Jedzie tam ___ z Warszawy. W hotelu pyta o ___. Nie zna ___, ale uczy się go. Wraca do ___ po tygodniu.",
       "blanks": [
@@ -1442,7 +1428,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 30,
       "title": "Sztuka i muzeum",
       "template": "Karolina interesuje się ___ i fotografią. Chodzi na wystawy z ___ co tydzień. W muzeum nie wolno dotykać ___. Fotografuje ___ w centrum miasta. Marzy o wystawie w ___.",
       "blanks": [
@@ -1494,7 +1480,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 31,
       "title": "Zdrowie – lekarz i pacjent",
       "template": "Lekarz rozmawia z ___ spokojnie. Nie ma tu ___ w kolejce. Pielęgniarka podaje ___ choremu dziecku. Pacjent skarży się na ___ głowy. Wraca do zdrowia dzięki ___.",
       "blanks": [
@@ -1546,7 +1532,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 32,
       "title": "Szkoła i wykład",
       "template": "Studenci uczą się do ___ całą noc. Profesor tłumaczy ___ cierpliwie. Na wykładzie nie ma ___ dzisiaj. Rozmawiają o ___ nauczania. Dyskutują ze ___ po zajęciach.",
       "blanks": [
@@ -1598,7 +1584,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 33,
       "title": "Restauracja",
       "template": "Kelner przynosi ___ do stolika. Nie ma dzisiaj w menu ___. Goście zamawiają kawę z ___. Szef kuchni gotuje z ___. Restauracja słynie z ___ rybnych.",
       "blanks": [
@@ -1650,7 +1636,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 34,
       "title": "Miasto i transport",
       "template": "Centrum miasta leży nad ___. Autobus jedzie do ___. Na przystanku czeka wielu ___. Rozmawiamy o ___ w centrum. Inżynier pracuje przy budowie ___.",
       "blanks": [
@@ -1702,7 +1688,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 35,
       "title": "Dom i codzienność",
       "template": "Mieszkają w ___ na czwartym piętrze. Nie ma w domu ___ od rana. Sąsiedzi rozmawiają ze ___ przez okno. Dbają o ___ przed domem. Wieczorami czytają o ___ tego miejsca.",
       "blanks": [
@@ -1754,7 +1740,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 36,
       "title": "Poranek w domu",
       "template": "Rano Anna ___ o szóstej i idzie do kuchni. Pije kawę z ___. Jej mąż wczoraj ___ śniadanie dla całej rodziny. Dzieci nie mają teraz ___ na spokojne jedzenie. Jutro wszyscy ___ wcześniej niż zwykle.",
       "blanks": [
@@ -1806,7 +1792,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": 37,
       "title": "W pracy",
       "template": "Dyrektor rozmawia z ___ w swoim gabinecie. Sekretarka ___ ważnego dokumentu od rana. Wczoraj spotkanie ___ trzy godziny. Nie ma dziś ___ w budynku. Jutro szef ___ nową umowę z klientem.",
       "blanks": [
@@ -1858,7 +1844,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 38,
       "title": "Na dworcu",
       "template": "Pociąg jedzie do ___. Pasażerowie ___ na peronie od godziny. Wczoraj pociąg ___ o pół godziny. Kobieta pyta o ___ powrotny. Jutro Marek ___ o świcie do Gdańska.",
       "blanks": [
@@ -1910,7 +1896,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 39,
       "title": "U lekarza",
       "template": "Lekarz ___ pacjenta w gabinecie. Pielęgniarka szuka ___. Wczoraj chory ___ w łóżku przez cały dzień. Nie ma tu ___ w pobliżu. Jutro doktor ___ receptę na nowy lek.",
       "blanks": [
@@ -1962,7 +1948,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 40,
       "title": "Rodzina jedzie na wakacje",
       "template": "Rodzina jedzie nad ___ na wakacje. Dzieci ___ z wyjazdu od tygodnia. Wczoraj mama ___ walizki do późna w nocy. Ojciec nie może znaleźć ___. Jutro samolot ___ o dziesiątej rano.",
       "blanks": [
@@ -2014,7 +2000,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 41,
       "title": "Nauka języka polskiego",
       "template": "Gülay uczy się ___ polskiego już od roku. Ona i Mustafa ___ wymowę razem każdego wieczoru. Wczoraj nauczycielka ___ zasady Narzędnika przez pół godziny. Rozmawiają o ___ i jej historii. Jutro oboje ___ test z gramatyki.",
       "blanks": [
@@ -2065,338 +2051,409 @@
         }
       ]
     },
-
-{
-  "id": 45,
-  "title": "Wieczór z książką",
-  "template": "___ jedenasta wieczorem. ___ światło i poszedłem spać. W moim pokoju ___ ciemno i cicho. Próbowałem ___ , ale nie mogłem, więc ___ książkę pt. „Wywiad z historią” autorstwa Oriany Fallaci i zacząłem ___ czytać. Ona ___ wywiady z ważnymi politykami. Ta książka opowiada o ___ . Czytam tę książkę ___ turecku, ale chcę o niej ___ po polsku. Po chwili poczułem się ___ i w końcu zasnąłem.",
-  "blanks": [
     {
-      "hint": "być – czas przeszły (rodzaj żeński)",
-      "options": [
-        "Była",
-        "Był",
-        "Było"
-      ],
-      "correct": "Była"
+      "id": 42,
+      "title": "Wieczór z książką",
+      "template": "___ jedenasta wieczorem. ___ światło i poszedłem spać. W moim pokoju ___ ciemno i cicho. Próbowałem ___ , ale nie mogłem, więc ___ książkę pt. „Wywiad z historią” autorstwa Oriany Fallaci i zacząłem ___ czytać. Ona ___ wywiady z ważnymi politykami. Ta książka opowiada o ___ . Czytam tę książkę ___ turecku, ale chcę o niej ___ po polsku. Po chwili poczułem się ___ i w końcu zasnąłem.",
+      "blanks": [
+        {
+          "hint": "być – czas przeszły (rodzaj żeński)",
+          "options": [
+            "Była",
+            "Był",
+            "Było"
+          ],
+          "correct": "Była"
+        },
+        {
+          "hint": "zgasić – czas przeszły (ja)",
+          "options": [
+            "Zgasiłem",
+            "Zgasiłam",
+            "Zgaszę"
+          ],
+          "correct": "Zgasiłem"
+        },
+        {
+          "hint": "być – forma nieosobowa",
+          "options": [
+            "było",
+            "był",
+            "była"
+          ],
+          "correct": "było"
+        },
+        {
+          "hint": "bezokolicznik (aspekt dokonany)",
+          "options": [
+            "usnąć",
+            "usnąłem",
+            "usnę"
+          ],
+          "correct": "usnąć"
+        },
+        {
+          "hint": "otworzyć – czas przeszły (ja)",
+          "options": [
+            "otworzyłem",
+            "otworzyłam",
+            "otworzy"
+          ],
+          "correct": "otworzyłem"
+        },
+        {
+          "hint": "zaimek (biernik – ją)",
+          "options": [
+            "ją",
+            "go",
+            "je"
+          ],
+          "correct": "ją"
+        },
+        {
+          "hint": "przeprowadzać – czas teraźniejszy (ona)",
+          "options": [
+            "przeprowadza",
+            "przeprowadzam",
+            "przeprowadzają"
+          ],
+          "correct": "przeprowadza"
+        },
+        {
+          "hint": "o + Miejscownik (rodzaj żeński)",
+          "options": [
+            "władzy",
+            "władza",
+            "władzę"
+          ],
+          "correct": "władzy"
+        },
+        {
+          "hint": "konstrukcja: po + język",
+          "options": [
+            "po",
+            "w",
+            "na"
+          ],
+          "correct": "po"
+        },
+        {
+          "hint": "bezokolicznik (aspekt dokonany)",
+          "options": [
+            "opowiedzieć",
+            "opowiadać",
+            "opowiem"
+          ],
+          "correct": "opowiedzieć"
+        },
+        {
+          "hint": "przymiotnik (rodzaj męski)",
+          "options": [
+            "zmęczony",
+            "zmęczona",
+            "zmęczeni"
+          ],
+          "correct": "zmęczony"
+        }
+      ]
     },
     {
-      "hint": "zgasić – czas przeszły (ja)",
-      "options": [
-        "Zgasiłem",
-        "Zgasiłam",
-        "Zgaszę"
-      ],
-      "correct": "Zgasiłem"
+      "id": 43,
+      "title": "Moja praca zawodowa",
+      "template": "___ w międzynarodowej firmie inżynieryjnej i od wielu lat ___ się realizacją projektów infrastrukturalnych w różnych krajach. W swojej pracy ___ zespołami wielokulturowymi oraz analizuję złożone sytuacje projektowe. Moja rola często ___ podejmowania odpowiedzialnych decyzji, dlatego ___ się na rozwiązaniach i długoterminowej wartości.",
+      "blanks": [
+        {
+          "hint": "pracować – czas teraźniejszy (ja)",
+          "options": [
+            "Pracuję",
+            "Pracujesz",
+            "Pracuje"
+          ],
+          "correct": "Pracuję"
+        },
+        {
+          "hint": "zajmować się + Narzędnik",
+          "options": [
+            "zajmuję",
+            "zajmujesz",
+            "zajmuje"
+          ],
+          "correct": "zajmuję"
+        },
+        {
+          "hint": "kierować + Narzędnik (kim? czym?)",
+          "options": [
+            "kieruję",
+            "kierujesz",
+            "kieruje"
+          ],
+          "correct": "kieruję"
+        },
+        {
+          "hint": "wymagać + Dopełniacz",
+          "options": [
+            "wymaga",
+            "wymagam",
+            "wymagają"
+          ],
+          "correct": "wymaga"
+        },
+        {
+          "hint": "koncentrować się – czas teraźniejszy (ja)",
+          "options": [
+            "koncentruję",
+            "koncentrujesz",
+            "koncentruje"
+          ],
+          "correct": "koncentruję"
+        }
+      ]
     },
     {
-      "hint": "być – forma nieosobowa",
-      "options": [
-        "było",
-        "był",
-        "była"
-      ],
-      "correct": "było"
+      "id": 44,
+      "title": "Doświadczenie i przywództwo",
+      "template": "W trakcie kariery wielokrotnie ___ zaangażowany w projekty wymagające odbudowy zaufania i stabilności. Regularnie ___ z partnerami i interesariuszami, ponieważ od jakości współpracy często ___ powodzenie całego przedsięwzięcia. ___ , że dobra komunikacja i wzajemny szacunek są podstawą skutecznego przywództwa. ___ śmiało powiedzieć, że łączę doświadczenie techniczne z odpowiedzialnością za ludzi i procesy.",
+      "blanks": [
+        {
+          "hint": "zostać – czas przeszły (ja - mężczyzna)",
+          "options": [
+            "zostałem",
+            "zostałam",
+            "zostaliśmy"
+          ],
+          "correct": "zostałem"
+        },
+        {
+          "hint": "negocjować – czas teraźniejszy (ja)",
+          "options": [
+            "negocjuję",
+            "negocjujesz",
+            "negocjuje"
+          ],
+          "correct": "negocjuję"
+        },
+        {
+          "hint": "zależeć – czas teraźniejszy (3. osoba)",
+          "options": [
+            "zależy",
+            "zależę",
+            "zależą"
+          ],
+          "correct": "zależy"
+        },
+        {
+          "hint": "spodziewać się – czas teraźniejszy (ja)",
+          "options": [
+            "Spodziewam",
+            "Spodziewasz",
+            "Spodziewa"
+          ],
+          "correct": "Spodziewam"
+        },
+        {
+          "hint": "móc – czas teraźniejszy (ja)",
+          "options": [
+            "Mogę",
+            "Możesz",
+            "Może"
+          ],
+          "correct": "Mogę"
+        }
+      ]
     },
     {
-      "hint": "bezokolicznik (aspekt dokonany)",
-      "options": [
-        "usnąć",
-        "usnąłem",
-        "usnę"
-      ],
-      "correct": "usnąć"
+      "id": 45,
+      "title": "Opis pokoju",
+      "template": "W moim pokoju, na ścianie po prawej stronie, ___ duży obraz o koniach. Po lewej stronie, na ścianie, wisi mały obraz w srebrnej ___ . Na środku pokoju ___ czarny dywan. Przed ___ , na podłodze, stoi mały stolik z ciemnego drewna. Na stoliku stoi telewizor. Po lewej stronie stolika stoi ___ . Po prawej stronie stolika stoi krzesło. Na ___ stoją mój worek i woreczek. W moim ___ mam więcej piór, papieru i notatek. Po lewej stronie ___ stoi sofa. Na lewej stronie dywanu stoi ___ . Obok biurka stoi ___ z książkami. Na regale jest dużo książek. Na biurku ___ komputer i lampa. Przy lampce stoi kubek, w którym ___ ołówek, długopis i pióro. Na suficie, w górnym lewym rogu, ___ lampa oświetlająca cały pokój.",
+      "blanks": [
+        {
+          "hint": "wisieć – czas teraźniejszy (3. osoba)",
+          "options": [
+            "wisi",
+            "wiszą",
+            "wiszę"
+          ],
+          "correct": "wisi"
+        },
+        {
+          "hint": "Miejscownik (w czym?)",
+          "options": [
+            "ramie",
+            "rama",
+            "ramy"
+          ],
+          "correct": "ramie"
+        },
+        {
+          "hint": "leżeć/stać – czas teraźniejszy",
+          "options": [
+            "leży",
+            "stoją",
+            "leżą"
+          ],
+          "correct": "leży"
+        },
+        {
+          "hint": "Narzędnik (przed czym?)",
+          "options": [
+            "ścianą",
+            "ściana",
+            "ściany"
+          ],
+          "correct": "ścianą"
+        },
+        {
+          "hint": "Mianownik (kto? co?)",
+          "options": [
+            "fotel",
+            "fotela",
+            "fotelem"
+          ],
+          "correct": "fotel"
+        },
+        {
+          "hint": "Miejscownik (na czym?)",
+          "options": [
+            "krześle",
+            "krzesło",
+            "krzesła"
+          ],
+          "correct": "krześle"
+        },
+        {
+          "hint": "Miejscownik (w czym?)",
+          "options": [
+            "woreczku",
+            "woreczek",
+            "woreczka"
+          ],
+          "correct": "woreczku"
+        },
+        {
+          "hint": "Dopełniacz (czego?)",
+          "options": [
+            "dywanu",
+            "dywan",
+            "dywanem"
+          ],
+          "correct": "dywanu"
+        },
+        {
+          "hint": "Mianownik (rodzaj nijaki)",
+          "options": [
+            "biurko",
+            "biurka",
+            "biurkiem"
+          ],
+          "correct": "biurko"
+        },
+        {
+          "hint": "Mianownik (rodzaj męski)",
+          "options": [
+            "regał",
+            "regału",
+            "regałem"
+          ],
+          "correct": "regał"
+        },
+        {
+          "hint": "leżeć – czas teraźniejszy (liczba mnoga)",
+          "options": [
+            "leżą",
+            "leży",
+            "leżał"
+          ],
+          "correct": "leżą"
+        },
+        {
+          "hint": "być – czas teraźniejszy (liczba mnoga)",
+          "options": [
+            "są",
+            "jest",
+            "były"
+          ],
+          "correct": "są"
+        },
+        {
+          "hint": "wisieć – czas teraźniejszy (3. osoba)",
+          "options": [
+            "wisi",
+            "wiszą",
+            "wiszę"
+          ],
+          "correct": "wisi"
+        }
+      ]
     },
     {
-      "hint": "otworzyć – czas przeszły (ja)",
-      "options": [
-        "otworzyłem",
-        "otworzyłam",
-        "otworzy"
-      ],
-      "correct": "otworzyłem"
-    },
-    {
-      "hint": "zaimek (biernik – ją)",
-      "options": [
-        "ją",
-        "go",
-        "je"
-      ],
-      "correct": "ją"
-    },
-    {
-      "hint": "przeprowadzać – czas teraźniejszy (ona)",
-      "options": [
-        "przeprowadza",
-        "przeprowadzam",
-        "przeprowadzają"
-      ],
-      "correct": "przeprowadza"
-    },
-    {
-      "hint": "o + Miejscownik (rodzaj żeński)",
-      "options": [
-        "władzy",
-        "władza",
-        "władzę"
-      ],
-      "correct": "władzy"
-    },
-    {
-      "hint": "konstrukcja: po + język",
-      "options": [
-        "po",
-        "w",
-        "na"
-      ],
-      "correct": "po"
-    },
-    {
-      "hint": "bezokolicznik (aspekt dokonany)",
-      "options": [
-        "opowiedzieć",
-        "opowiadać",
-        "opowiem"
-      ],
-      "correct": "opowiedzieć"
-    },
-    {
-      "hint": "przymiotnik (rodzaj męski)",
-      "options": [
-        "zmęczony",
-        "zmęczona",
-        "zmęczeni"
-      ],
-      "correct": "zmęczony"
+      "id": 46,
+      "title": "Moje rzeczy i notatki",
+      "template": "W moim ___ mam cztery ___ i jedną książkę. Pierwszy zeszyt jest o ___ , drugi o polskich notatkach, trzeci o notatkach biznesowych, a czwarty o codziennych zapiskach. Ta książka jest o ___ autorstwa Feynmana. Mam książkę, ale nie mam czasu ___ przeczytać. W mojej torbie są moje ___ i artykuły. W moim woreczku mam więcej ___ , papieru i notatek.",
+      "blanks": [
+        {
+          "hint": "Miejscownik (w czym?)",
+          "options": [
+            "worku",
+            "worek",
+            "worka"
+          ],
+          "correct": "worku"
+        },
+        {
+          "hint": "Dopełniacz liczby mnogiej",
+          "options": [
+            "zeszyty",
+            "zeszytów",
+            "zeszytami"
+          ],
+          "correct": "zeszyty"
+        },
+        {
+          "hint": "Miejscownik (o czym?)",
+          "options": [
+            "dzienniku",
+            "dziennik",
+            "dziennika"
+          ],
+          "correct": "dzienniku"
+        },
+        {
+          "hint": "Miejscownik (o czym?)",
+          "options": [
+            "fizyce",
+            "fizyka",
+            "fizyki"
+          ],
+          "correct": "fizyce"
+        },
+        {
+          "hint": "zaimek (biernik – ją)",
+          "options": [
+            "jej",
+            "ją",
+            "go"
+          ],
+          "correct": "jej"
+        },
+        {
+          "hint": "Mianownik liczby mnogiej",
+          "options": [
+            "pióra",
+            "pióro",
+            "piór"
+          ],
+          "correct": "pióra"
+        },
+        {
+          "hint": "Dopełniacz liczby mnogiej",
+          "options": [
+            "piór",
+            "pióra",
+            "pióro"
+          ],
+          "correct": "piór"
+        }
+      ]
     }
-  ]
-},
-
-  {
-    "id": 46,
-    "title": "Moja praca zawodowa",
-    "template": "___ w międzynarodowej firmie inżynieryjnej i od wielu lat ___ się realizacją projektów infrastrukturalnych w różnych krajach. W swojej pracy ___ zespołami wielokulturowymi oraz analizuję złożone sytuacje projektowe. Moja rola często ___ podejmowania odpowiedzialnych decyzji, dlatego ___ się na rozwiązaniach i długoterminowej wartości.",
-    "blanks": [
-      {
-        "hint": "pracować – czas teraźniejszy (ja)",
-        "options": [
-          "Pracuję",
-          "Pracujesz",
-          "Pracuje"
-        ],
-        "correct": "Pracuję"
-      },
-      {
-        "hint": "zajmować się + Narzędnik",
-        "options": [
-          "zajmuję",
-          "zajmujesz",
-          "zajmuje"
-        ],
-        "correct": "zajmuję"
-      },
-      {
-        "hint": "kierować + Narzędnik (kim? czym?)",
-        "options": [
-          "kieruję",
-          "kierujesz",
-          "kieruje"
-        ],
-        "correct": "kieruję"
-      },
-      {
-        "hint": "wymagać + Dopełniacz",
-        "options": [
-          "wymaga",
-          "wymagam",
-          "wymagają"
-        ],
-        "correct": "wymaga"
-      },
-      {
-        "hint": "koncentrować się – czas teraźniejszy (ja)",
-        "options": [
-          "koncentruję",
-          "koncentrujesz",
-          "koncentruje"
-        ],
-        "correct": "koncentruję"
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "title": "Doświadczenie i przywództwo",
-    "template": "W trakcie kariery wielokrotnie ___ zaangażowany w projekty wymagające odbudowy zaufania i stabilności. Regularnie ___ z partnerami i interesariuszami, ponieważ od jakości współpracy często ___ powodzenie całego przedsięwzięcia. ___ , że dobra komunikacja i wzajemny szacunek są podstawą skutecznego przywództwa. ___ śmiało powiedzieć, że łączę doświadczenie techniczne z odpowiedzialnością za ludzi i procesy.",
-    "blanks": [
-      {
-        "hint": "zostać – czas przeszły (ja - mężczyzna)",
-        "options": [
-          "zostałem",
-          "zostałam",
-          "zostaliśmy"
-        ],
-        "correct": "zostałem"
-      },
-      {
-        "hint": "negocjować – czas teraźniejszy (ja)",
-        "options": [
-          "negocjuję",
-          "negocjujesz",
-          "negocjuje"
-        ],
-        "correct": "negocjuję"
-      },
-      {
-        "hint": "zależeć – czas teraźniejszy (3. osoba)",
-        "options": [
-          "zależy",
-          "zależę",
-          "zależą"
-        ],
-        "correct": "zależy"
-      },
-      {
-        "hint": "spodziewać się – czas teraźniejszy (ja)",
-        "options": [
-          "Spodziewam",
-          "Spodziewasz",
-          "Spodziewa"
-        ],
-        "correct": "Spodziewam"
-      },
-      {
-        "hint": "móc – czas teraźniejszy (ja)",
-        "options": [
-          "Mogę",
-          "Możesz",
-          "Może"
-        ],
-        "correct": "Mogę"
-      }
-    ]
-  },
-
-
-  {
-    "id": 48,
-    "title": "Opis pokoju",
-    "template": "W moim pokoju, na ścianie po prawej stronie, ___ duży obraz o koniach. Po lewej stronie, na ścianie, wisi mały obraz w srebrnej ___ . Na środku pokoju ___ czarny dywan. Przed ___ , na podłodze, stoi mały stolik z ciemnego drewna. Na stoliku stoi telewizor. Po lewej stronie stolika stoi ___ . Po prawej stronie stolika stoi krzesło. Na ___ stoją mój worek i woreczek. W moim ___ mam więcej piór, papieru i notatek. Po lewej stronie ___ stoi sofa. Na lewej stronie dywanu stoi ___ . Obok biurka stoi ___ z książkami. Na regale jest dużo książek. Na biurku ___ komputer i lampa. Przy lampce stoi kubek, w którym ___ ołówek, długopis i pióro. Na suficie, w górnym lewym rogu, ___ lampa oświetlająca cały pokój.",
-    "blanks": [
-      {
-        "hint": "wisieć – czas teraźniejszy (3. osoba)",
-        "options": ["wisi", "wiszą", "wiszę"],
-        "correct": "wisi"
-      },
-      {
-        "hint": "Miejscownik (w czym?)",
-        "options": ["ramie", "rama", "ramy"],
-        "correct": "ramie"
-      },
-      {
-        "hint": "leżeć/stać – czas teraźniejszy",
-        "options": ["leży", "stoją", "leżą"],
-        "correct": "leży"
-      },
-      {
-        "hint": "Narzędnik (przed czym?)",
-        "options": ["ścianą", "ściana", "ściany"],
-        "correct": "ścianą"
-      },
-      {
-        "hint": "Mianownik (kto? co?)",
-        "options": ["fotel", "fotela", "fotelem"],
-        "correct": "fotel"
-      },
-      {
-        "hint": "Miejscownik (na czym?)",
-        "options": ["krześle", "krzesło", "krzesła"],
-        "correct": "krześle"
-      },
-      {
-        "hint": "Miejscownik (w czym?)",
-        "options": ["woreczku", "woreczek", "woreczka"],
-        "correct": "woreczku"
-      },
-      {
-        "hint": "Dopełniacz (czego?)",
-        "options": ["dywanu", "dywan", "dywanem"],
-        "correct": "dywanu"
-      },
-      {
-        "hint": "Mianownik (rodzaj nijaki)",
-        "options": ["biurko", "biurka", "biurkiem"],
-        "correct": "biurko"
-      },
-      {
-        "hint": "Mianownik (rodzaj męski)",
-        "options": ["regał", "regału", "regałem"],
-        "correct": "regał"
-      },
-      {
-        "hint": "leżeć – czas teraźniejszy (liczba mnoga)",
-        "options": ["leżą", "leży", "leżał"],
-        "correct": "leżą"
-      },
-      {
-        "hint": "być – czas teraźniejszy (liczba mnoga)",
-        "options": ["są", "jest", "były"],
-        "correct": "są"
-      },
-      {
-        "hint": "wisieć – czas teraźniejszy (3. osoba)",
-        "options": ["wisi", "wiszą", "wiszę"],
-        "correct": "wisi"
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "title": "Moje rzeczy i notatki",
-    "template": "W moim ___ mam cztery ___ i jedną książkę. Pierwszy zeszyt jest o ___ , drugi o polskich notatkach, trzeci o notatkach biznesowych, a czwarty o codziennych zapiskach. Ta książka jest o ___ autorstwa Feynmana. Mam książkę, ale nie mam czasu ___ przeczytać. W mojej torbie są moje ___ i artykuły. W moim woreczku mam więcej ___ , papieru i notatek.",
-    "blanks": [
-      {
-        "hint": "Miejscownik (w czym?)",
-        "options": ["worku", "worek", "worka"],
-        "correct": "worku"
-      },
-      {
-        "hint": "Dopełniacz liczby mnogiej",
-        "options": ["zeszyty", "zeszytów", "zeszytami"],
-        "correct": "zeszyty"
-      },
-      {
-        "hint": "Miejscownik (o czym?)",
-        "options": ["dzienniku", "dziennik", "dziennika"],
-        "correct": "dzienniku"
-      },
-      {
-        "hint": "Miejscownik (o czym?)",
-        "options": ["fizyce", "fizyka", "fizyki"],
-        "correct": "fizyce"
-      },
-      {
-        "hint": "zaimek (biernik – ją)",
-        "options": ["jej", "ją", "go"],
-        "correct": "jej"
-      },
-      {
-        "hint": "Mianownik liczby mnogiej",
-        "options": ["pióra", "pióro", "piór"],
-        "correct": "pióra"
-      },
-      {
-        "hint": "Dopełniacz liczby mnogiej",
-        "options": ["piór", "pióra", "pióro"],
-        "correct": "piór"
-      }
-    ]
-  }
-
-
-
-    
-    
   ]
 }
