@@ -2454,6 +2454,257 @@
           "correct": "piór"
         }
       ]
+    },
+    {
+      "id": 47,
+      "title": "Dzień dobry – poranek Marka",
+      "template": "Mam na imię Marek. Jestem ___. Dzisiaj jest naprawdę piękny dzień — słońce świeci jasno, a niebo jest ___. Wstaję rano o ___. Na śniadanie jem chleb z ___ i piję herbatę z cytryną.",
+      "blanks": [
+        {
+          "hint": "Mianownik – kim jestem?",
+          "options": [
+            "studentem",
+            "student",
+            "studenta"
+          ],
+          "correct": "studentem"
+        },
+        {
+          "hint": "Mianownik nijaki – przymiotnik koloru",
+          "options": [
+            "błękitne",
+            "błękitna",
+            "błękitnego"
+          ],
+          "correct": "błękitne"
+        },
+        {
+          "hint": "Miejscownik – o której?",
+          "options": [
+            "siódmej",
+            "siódma",
+            "siódmą"
+          ],
+          "correct": "siódmej"
+        },
+        {
+          "hint": "z + Narzędnik nijaki",
+          "options": [
+            "masłem",
+            "masło",
+            "masła"
+          ],
+          "correct": "masłem"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Autobus i spotkanie z przyjacielem",
+      "template": "O ósmej ___ z domu i idę na przystanek. W słuchawkach słucham ___ muzyki. Spotykam się z moim przyjacielem Karolem w ___. Chodzimy razem po ___, śmiejemy się i rozmawiamy o filmach. Powietrze jest świeże, a wokół kwitną kwiaty i rosną wysokie ___.",
+      "blanks": [
+        {
+          "hint": "ja – czas teraźniejszy",
+          "options": [
+            "wychodzę",
+            "wychodzisz",
+            "wychodzi"
+          ],
+          "correct": "wychodzę"
+        },
+        {
+          "hint": "Dopełniacz żeński – przymiotnik",
+          "options": [
+            "ulubionej",
+            "ulubiona",
+            "ulubioną"
+          ],
+          "correct": "ulubionej"
+        },
+        {
+          "hint": "w + Miejscownik",
+          "options": [
+            "parku",
+            "park",
+            "parkiem"
+          ],
+          "correct": "parku"
+        },
+        {
+          "hint": "po + Miejscownik l.mn.",
+          "options": [
+            "alejkach",
+            "alejki",
+            "alejkami"
+          ],
+          "correct": "alejkach"
+        },
+        {
+          "hint": "Mianownik nijaki l.mn.",
+          "options": [
+            "drzewa",
+            "drzew",
+            "drzewami"
+          ],
+          "correct": "drzewa"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Obiad w restauracji i park",
+      "template": "Na obiad idziemy do ___ restauracji niedaleko parku. Karol zamawia zupę pomidorową, a ja zamawiam pierogi z ___. Do tego pijemy sok ___. Po obiedzie wracamy do parku i siadamy na ___ w cieniu. Karol czyta gazetę, a ja biorę ze swojej ___ powieść historyczną.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz żeński – przymiotnik",
+          "options": [
+            "małej",
+            "mała",
+            "małą"
+          ],
+          "correct": "małej"
+        },
+        {
+          "hint": "z + Narzędnik",
+          "options": [
+            "serem",
+            "ser",
+            "sera"
+          ],
+          "correct": "serem"
+        },
+        {
+          "hint": "Biernik męski – przymiotnik",
+          "options": [
+            "pomarańczowy",
+            "pomarańczowego",
+            "pomarańczowym"
+          ],
+          "correct": "pomarańczowy"
+        },
+        {
+          "hint": "na + Miejscownik żeński",
+          "options": [
+            "ławce",
+            "ławka",
+            "ławkę"
+          ],
+          "correct": "ławce"
+        },
+        {
+          "hint": "Dopełniacz żeński",
+          "options": [
+            "torby",
+            "torba",
+            "torbą"
+          ],
+          "correct": "torby"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Biblioteka i rodzina w kawiarni",
+      "template": "Po południu idę sam do ___. Uczę się ___ polskiego przez dwie godziny. O szesnastej spotykam się z ___ w kawiarni. Mama zamawia kawę, tata herbatę, a ja jem kawałek szarlotki z ___ śmietaną. Rozmawiamy i ___ razem.",
+      "blanks": [
+        {
+          "hint": "do + Dopełniacz żeński",
+          "options": [
+            "biblioteki",
+            "biblioteka",
+            "biblioteką"
+          ],
+          "correct": "biblioteki"
+        },
+        {
+          "hint": "Dopełniacz",
+          "options": [
+            "języka",
+            "język",
+            "językiem"
+          ],
+          "correct": "języka"
+        },
+        {
+          "hint": "z + Narzędnik żeński",
+          "options": [
+            "rodziną",
+            "rodzina",
+            "rodziny"
+          ],
+          "correct": "rodziną"
+        },
+        {
+          "hint": "z + Narzędnik żeński – przymiotnik",
+          "options": [
+            "bitą",
+            "bita",
+            "bitej"
+          ],
+          "correct": "bitą"
+        },
+        {
+          "hint": "Podmiot: my – czas teraźniejszy",
+          "options": [
+            "śmiejemy się",
+            "śmieję się",
+            "śmieje się"
+          ],
+          "correct": "śmiejemy się"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Wieczór i dobranoc",
+      "template": "Wieczorem wracam do domu i oglądam ___. Film jest bardzo ___ i śmieję się przez cały czas. Przed snem czytam jeszcze kilka ___ książki. O dwudziestej trzeciej ___ się spać. To był naprawdę ___ dzień.",
+      "blanks": [
+        {
+          "hint": "Biernik żeński",
+          "options": [
+            "komedię",
+            "komedia",
+            "komedii"
+          ],
+          "correct": "komedię"
+        },
+        {
+          "hint": "Mianownik męski – przymiotnik",
+          "options": [
+            "śmieszny",
+            "śmieszne",
+            "śmieszną"
+          ],
+          "correct": "śmieszny"
+        },
+        {
+          "hint": "Dopełniacz l.mn.",
+          "options": [
+            "stron",
+            "strony",
+            "stronami"
+          ],
+          "correct": "stron"
+        },
+        {
+          "hint": "ja – czas teraźniejszy",
+          "options": [
+            "kładę",
+            "kładziesz",
+            "kładzie"
+          ],
+          "correct": "kładę"
+        },
+        {
+          "hint": "Mianownik męski – przymiotnik",
+          "options": [
+            "wspaniały",
+            "wspaniałe",
+            "wspaniałą"
+          ],
+          "correct": "wspaniały"
+        }
+      ]
     }
   ]
 }
